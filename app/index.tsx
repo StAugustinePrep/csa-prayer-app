@@ -1,4 +1,4 @@
-import { Text, View, ImageBackground } from "react-native";
+import { Text, View, ImageBackground, ScrollView } from "react-native";
 import { useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
@@ -11,12 +11,13 @@ export default function Index() {
   return (
     <View className="flex-1">
       <ImageBackground
+        style={{width: 'auto', height: '100%'}}
         source={require("../assets/images/csa-picture.jpg")}
         resizeMode="cover"
         className="flex-1"
       >
         <AppGradient colors={["rgba(0, 0, 0, 0.4)", "rgba(0, 0, 0, 0.4)"]}>
-            <SafeAreaView className="flex-1 mx-5 my-8 justify-between mt-5 items-center">
+            <SafeAreaView className="flex-1 mx-5 my-8 justify-evenly mt-5 items-center">
               <View>
                 <Text className="text-3xl text-center font-bold lg:text-5xl text-white">
                   CSA App de Oración

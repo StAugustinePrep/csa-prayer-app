@@ -24,7 +24,7 @@ const Oracion = () => {
       <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}>
         <Pressable
           onPress={() => router.back()}
-          className="absolute top-16 left-6 z-10"
+          className="absolute top-6 left-6 z-10"
         >
           <FontAwesome5 name="arrow-left" size={24} color="white" />
         </Pressable>

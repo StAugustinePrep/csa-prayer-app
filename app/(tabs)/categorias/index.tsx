@@ -1,4 +1,4 @@
-import { View, Text, FlatList, ImageBackground, Pressable } from "react-native";
+import { View, Text, FlatList, ImageBackground, Pressable, ScrollView } from "react-native";
 import React from "react";
 import AppGradient from "@/components/ui/AppGradient";
 import { StatusBar } from "expo-status-bar";
@@ -24,7 +24,7 @@ const Index = () => {
             Siempre es un buen momento para rezar
           </Text>
         </View>
-        <View className="pb-16">
+        <ScrollView className="pb-16">
           <FlatList
             data={ORACIONES_DATA}
             className="mb-20"
@@ -52,7 +52,7 @@ const Index = () => {
               </Pressable>
             )}
           />
-        </View>
+        </ScrollView>
       </AppGradient>
       <StatusBar style="light" />
     </View>

@@ -21,7 +21,7 @@ const PrayerGallery = ({ title, previews }: PrayerGalleryProps) => {
   const router = useRouter();
 
   return (
-    <View className="my-5">
+    <View style={{ marginVertical: 15 }}>
       {/* Header Row */}
       <View style={styles.headerContainer}>
         <Pressable onPress={() => router.back()}>
