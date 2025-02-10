@@ -123,9 +123,9 @@ export default function ViaCrucis() {
         data={data}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
-          <View style={{width: 300, maxHeight: 530, marginTop: 60, marginRight: 10}}>
+          <View style={{width: 300, height: 580, marginTop: 60, marginRight: 10}}>
             <Image
-              style={{ width: 300, height: 300, objectFit: "cover", borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+              style={{ width: 300, height: 290, objectFit: "cover", borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
               source={item.image}
             />
             <View style={{backgroundColor: "white", padding: 4, flexGrow: 1, borderBottomEndRadius: 10, borderBottomLeftRadius: 10}} className="w-full gap-2 h-fit rounded-b-lg p-4 grow">

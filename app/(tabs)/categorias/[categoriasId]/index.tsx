@@ -13,7 +13,7 @@ const Index = () => {
       <AppGradient
         colors={["rgb(37, 102, 175)", "rgb(35, 76, 128)", "rgb(29, 52, 84)"]}
       >
-        <View>
+        <View className="flex-1">
           {categorySelected.map((categoria) => (
             <PrayerGallery
               key={categoria.title}

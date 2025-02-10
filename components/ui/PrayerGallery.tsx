@@ -3,30 +3,35 @@ import {
   Text,
   FlatList,
   Pressable,
-  Image,
   ScrollView,
+  StyleSheet,
 } from "react-native";
 import React from "react";
+import { FontAwesome5 } from "@expo/vector-icons";
 import { GalleryPreviewData } from "@/constants/models/Oracion";
-import { Link, useLocalSearchParams, useRouter } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
 
 interface PrayerGalleryProps {
   title: string;
   previews: GalleryPreviewData[];
 }
 
-const PrayerGallery = ({
-  title,
-  previews,
-}: PrayerGalleryProps) => {
+const PrayerGallery = ({ title, previews }: PrayerGalleryProps) => {
   const { categoriasId } = useLocalSearchParams();
   const router = useRouter();
 
   return (
     <View className="my-5">
-      <View className="mb-2">
-        <Text className="text-zinc-50 text-3xl font-bold">{title}</Text>
+      {/* Header Row */}
+      <View style={styles.headerContainer}>
+        <Pressable onPress={() => router.back()}>
+          <FontAwesome5 name="arrow-left" size={24} color="white" />
+        </Pressable>
+        <Text style={styles.headerTitle}>{title}</Text>
+        <View style={{ width: 24 }} />
       </View>
+
+      {/* Gallery List */}
       <View className="space-y-2 items-center">
         <FlatList
           className="mt-5 mb-10"
@@ -35,7 +40,9 @@ const PrayerGallery = ({
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
             <Pressable
-              onPress={() => router.push(`/categorias/${categoriasId}/${item.id}`)}
+              onPress={() =>
+                router.push(`/categorias/${categoriasId}/${item.id}`)
+              }
             >
               <View
                 style={{
@@ -57,5 +64,22 @@ const PrayerGallery = ({
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  headerContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 16,
+    marginBottom: 8,
+  },
+  headerTitle: {
+    flex: 1,
+    textAlign: "center",
+    color: "white",
+    fontSize: 24,
+    fontWeight: "bold",
+  },
+});
 
 export default PrayerGallery;

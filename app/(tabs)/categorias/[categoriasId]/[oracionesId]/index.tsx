@@ -26,7 +26,7 @@ const Oracion = () => {
           onPress={() => router.back()}
           className="absolute top-16 left-6 z-10"
         >
-          <FontAwesome5 name="arrow-alt-circle-left" size={24} color="black" />
+          <FontAwesome5 name="arrow-left" size={24} color="white" />
         </Pressable>
         {categoriasId === "2" && oracionesId === "2" ? (
           <ViaCrucis />

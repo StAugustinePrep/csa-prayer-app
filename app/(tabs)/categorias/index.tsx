@@ -21,7 +21,7 @@ const Index = () => {
             Bienvenido!
           </Text>
           <Text className="text-indigo-100 mb-1 font-medium text-xl text-left">
-            Siempre es un buen dia para rezar!
+            Siempre es un buen momento para rezar
           </Text>
         </View>
         <View className="pb-16">
