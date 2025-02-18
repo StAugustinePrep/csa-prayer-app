@@ -1,4 +1,4 @@
-import { Text, View, ImageBackground } from "react-native";
+import { Text, View, ImageBackground, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
@@ -10,25 +10,24 @@ export default function Index() {
 
   return (
     <View className="flex-1">
+      
       <ImageBackground
         source={require("../assets/images/csa-picture.jpg")}
         resizeMode="cover"
         className="flex-1"
       >
-        <AppGradient colors={["rgba(0, 0, 0, 0.4)", "rgba(0, 0, 0, 0.4)"]}>
-            <SafeAreaView className="flex-1 mx-5 my-8 justify-between mt-5 items-center">
+            <SafeAreaView style={styles.safeAreaView}>
               <View>
-                <Text className="text-3xl text-center font-bold lg:text-5xl text-white">
-                  CSA App de Oración
+                <Text style={styles.title}>
+                  Colegio Preparatorio San Agustín
                 </Text>
-                <Text className="text-lg text-center lg:text-xl mt-10 text-white">
+                <Text style={styles.description}>
                   La educación religiosa es una parte integral del plan de
-                  estudios y de la vida estudiantil en St. Augustine Preparatory
-                  School.
+                  estudios y de la vida estudiantil.
                 </Text>
               </View>
 
-              <View className="bg-transparent w-full">
+              <View style={styles.buttonContainer}>
                 <CustomButton
                   href="/categorias"
                   title="Comenzar"
@@ -36,8 +35,35 @@ export default function Index() {
               </View>
               <StatusBar style="light" />
             </SafeAreaView>
-        </AppGradient>
       </ImageBackground>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  safeAreaView: {
+    flex: 1,
+    marginHorizontal: 10,
+    marginVertical: 8,
+    justifyContent: 'space-evenly',
+    marginTop: 5,
+    alignItems: 'center',
+    
+  },
+  title: {
+    fontSize: 24,
+    textAlign: 'center',
+    color: 'white',
+    fontWeight: 'bold',
+  },
+  description: {
+    fontSize: 18,
+    textAlign: 'center',
+    marginTop: 10,
+    color: 'white',
+  },
+  buttonContainer: {
+    backgroundColor: 'transparent',
+    width: '100%',
+  },
+});

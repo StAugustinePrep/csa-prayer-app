@@ -1,22 +1,22 @@
-import { View, Text, ScrollView } from "react-native";
+import { View, Text, ScrollView, StyleSheet } from "react-native";
 import React from "react";
 import AppGradient from "@/components/ui/AppGradient";
 import TextoExamen from "@/components/ui/TextoExamen";
 
 const ExamenConciencia = () => {
   return (
-    <View className="flex-1">
-      <AppGradient colors={["#2e1f58", "#54426b", "#a790af"]}>
-        <Text className="text-zinc-50 text-3xl font-bold mt-3">
+    <View style={styles.container}>
+      {/* <AppGradient colors={["#2e1f58", "#54426b", "#a790af"]}> */}
+        <Text style={styles.title}>
           Examenes de conciencia
         </Text>
-        <ScrollView className="mt-1" showsVerticalScrollIndicator={false}>
-          <View className="h-full justify-center">
-            <View className="h-4/5 mt-1 justify-center">
-              <Text className="text-zinc-50 text-2xl font-bold mt-1">
+        <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
+          <View style={styles.innerContainer}>
+            <View style={styles.section}>
+              <Text style={styles.subtitle}>
                 Examen Ignaciano
               </Text>
-              <View className="ml-2">
+              <View style={styles.textContainer}>
                 <TextoExamen
                   texto="1. Presencia: Pide a Dios su gracias y ayuda en este momento de
                 oración."
@@ -30,9 +30,10 @@ const ExamenConciencia = () => {
                 />
               </View>
 
-              <Text className="text-zinc-50 text-2xl font-bold mt-3">
+              <Text style={styles.subtitle}>
                 Guia para una buena confesión
               </Text>
+              <View style={styles.textContainer}>
               <View className="ml-2">
                 <TextoExamen
                   texto="Amarás a Dios sobre todas las cosas... - ¿Creo todo lo que Dios
@@ -90,12 +91,47 @@ const ExamenConciencia = () => {
                 causado con esas conversaciones?"
                 />
               </View>
+              </View>
             </View>
           </View>
         </ScrollView>
-      </AppGradient>
+      {/* </AppGradient> */}
     </View>
   );
-};
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#003553",
+  },
+  title: {
+    color: "#f8f8f8",
+    fontSize: 24,
+    fontWeight: "bold",
+    marginTop: 12,
+  },
+  scrollView: {
+    marginTop: 4,
+  },
+  innerContainer: {
+    height: "100%",
+    justifyContent: "center",
+  },
+  section: {
+    height: "80%",
+    marginTop: 4,
+    justifyContent: "center",
+  },
+  subtitle: {
+    color: "#f8f8f8",
+    fontSize: 20,
+    fontWeight: "bold",
+    marginTop: 4,
+  },
+  textContainer: {
+    marginLeft: 8,
+  },
+});
 
 export default ExamenConciencia;
