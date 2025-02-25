@@ -1,4 +1,4 @@
-import { Text, View, ImageBackground, StyleSheet } from "react-native";
+import { Text, View, ImageBackground, StyleSheet, Pressable } from "react-native";
 import { useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
@@ -9,38 +9,45 @@ export default function Index() {
   const router = useRouter();
 
   return (
-    <View className="flex-1">
-      
+    <View style={styles.flex1}>
+      {/* <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}> */}
       <ImageBackground
         source={require("../assets/images/csa-picture.jpg")}
         resizeMode="cover"
-        className="flex-1"
+        style={styles.flex1}
       >
-            <SafeAreaView style={styles.safeAreaView}>
-              <View>
-                <Text style={styles.title}>
-                  Colegio Preparatorio San Agustín
-                </Text>
-                <Text style={styles.description}>
-                  La educación religiosa es una parte integral del plan de
-                  estudios y de la vida estudiantil.
-                </Text>
-              </View>
+        <SafeAreaView style={styles.safeAreaView}>
 
-              <View style={styles.buttonContainer}>
-                <CustomButton
-                  href="/inicio"
-                  title="Comenzar"
-                />
-              </View>
-              <StatusBar style="light" />
-            </SafeAreaView>
+          <View>
+            <Text style={styles.title}>
+              Colegio Preparatorio San Agustín
+            </Text>
+            <Text style={styles.description}>
+              La educación religiosa es una parte integral del plan de
+              estudios y de la vida estudiantil.
+            </Text>
+          </View>
+
+          <View style={styles.buttonContainer}>
+          <CustomButton
+              href="/audios"
+              title="Mensaje del Director"
+            />
+          </View>
+
+
+          <StatusBar style="light" />
+        </SafeAreaView>
       </ImageBackground>
+    {/* </AppGradient> */}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  flex1: {
+    flex: 1,
+  },
   safeAreaView: {
     flex: 1,
     marginHorizontal: 10,
@@ -48,7 +55,6 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
     marginTop: 5,
     alignItems: 'center',
-    
   },
   title: {
     fontSize: 24,

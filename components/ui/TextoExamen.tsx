@@ -18,11 +18,11 @@ const TextoExamen = ({
 const styles = StyleSheet.create({
   text: {
     color: 'white',
-    fontSize: 18,
+    fontSize: 14,
     marginBottom: 12,
     //fontWeight: 'bold',
     textAlign: 'left',
-    fontFamily: 'Hum521Bd', // Apply the custom font
+    fontFamily: 'Hum521Rm', // Apply the custom font
   },
 });
 

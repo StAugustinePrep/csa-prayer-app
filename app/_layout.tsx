@@ -1,16 +1,67 @@
-import { Stack } from 'expo-router';
-import 'react-native-reanimated';
-import React from 'react'
-import "../global.css";
+import { View, Text } from "react-native";
+import { Tabs } from "expo-router";
+import React from "react";
+import Colors from "@/constants/Colors";
 
-export default function RootLayout() {
+// TO - DO Create an Icons constants
+import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
+
+const TabsLayout = () => {
   return (
-    <Stack initialRouteName="(tabs)">
-    {/* <Stack > */}
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-      {/* <Stack.Screen name="(tabs)/inicio" options={{ headerShown: false }} /> */}
-      {/* <Stack.Screen name="not-found" options={{ title: "Oops!" }} /> */}
-    </Stack>
+    <Tabs
+      screenOptions={{
+        headerShown: false,
+        tabBarActiveTintColor: Colors.primary,
+      }}
+    >
+
+
+      <Tabs.Screen
+        name="index"
+        options={{
+          tabBarLabel: "Inicio",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="home" size={24} color={color} />
+          ),
+        }}
+      />
+
+
+      <Tabs.Screen
+        name="(tabs)/categorias"
+        options={{
+          tabBarLabel: "Oraciones",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="praying-hands" size={24} color={color} />
+          ),
+        }}
+      />
+
+
+      <Tabs.Screen
+        name="guia_confesion"
+        options={{
+          tabBarLabel: "Guia de Confesión",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="book-reader" size={24} color={color} />
+          ),
+        }}
+      />
+
+
+      <Tabs.Screen
+        name="audios"
+        options={{
+          tabBarLabel: "Cantos Misa",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="music" size={24} color={color} />
+          ),
+        }}
+      />
+
+      
+    </Tabs>
   );
-}
+};
+
+export default TabsLayout;

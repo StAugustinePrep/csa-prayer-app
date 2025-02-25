@@ -1,14 +1,12 @@
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
+import React from "react";
 
-import React from "react"
-
-export default function CategoriasLayout() {
+export default function OracionesLayout() {
   return (
     <>
       <Stack>
         <Stack.Screen options={{ headerShown: false }} name="index" />
-        <Stack.Screen options={{ headerShown: false }} name="[categoriasId]" />
       </Stack>
       <StatusBar style="light" />
     </>

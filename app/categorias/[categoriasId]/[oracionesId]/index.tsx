@@ -8,8 +8,8 @@ import ViaCrucis from "@/components/ui/ViaCrucis";
 
 const Oracion = () => {
   const router = useRouter();
-
   const { categoriasId, oracionesId } = useLocalSearchParams();
+  
   const category = CATEGORIAS_GALLERY.filter(
     (category) => category.id === categoriasId
   );
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     zIndex: 10,
   },
   scrollView: {
-    marginTop: 20,
+    marginTop: 10,
   },
   fullHeight: {
     height: '100%',
