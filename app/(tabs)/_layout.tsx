@@ -10,10 +10,19 @@ const TabsLayout = () => {
   return (
     <Tabs
       screenOptions={{
-        headerShown: false,
+        headerShown: true,
         tabBarActiveTintColor: Colors.primary,
       }}
     >
+      <Tabs.Screen
+        name="inicio"
+        options={{
+          tabBarLabel: "inicio",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="home" size={24} color={color} />
+          ),
+        }}
+      />
       <Tabs.Screen
         name="categorias"
         options={{
@@ -24,14 +33,24 @@ const TabsLayout = () => {
         }}
       />
       <Tabs.Screen
-        name="examen_conciencia"
+        name="guia_confesion"
         options={{
-          tabBarLabel: "Examen de Conciencia",
+          tabBarLabel: "Guia de Confesión",
           tabBarIcon: ({ color }) => (
             <FontAwesome5 name="book-reader" size={24} color={color} />
           ),
         }}
       />
+      <Tabs.Screen
+        name="audios"
+        options={{
+          tabBarLabel: "Cantos Misa",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome5 name="music" size={24} color={color} />
+          ),
+        }}
+      />
+      
     </Tabs>
   );
 };

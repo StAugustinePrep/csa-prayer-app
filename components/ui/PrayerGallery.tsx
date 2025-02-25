@@ -25,7 +25,7 @@ const PrayerGallery = ({ title, previews }: PrayerGalleryProps) => {
       {/* Header Row */}
       <View style={styles.headerContainer}>
         <Pressable onPress={() => router.back()}>
-          <FontAwesome5 name="arrow-left" size={24} color="white" />
+          <FontAwesome5 name="arrow-left" size={24} color="#003553" />
         </Pressable>
         <Text style={styles.headerTitle}>{title}</Text>
         <View style={{ width: 24 }} />

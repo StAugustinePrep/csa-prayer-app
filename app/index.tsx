@@ -29,7 +29,7 @@ export default function Index() {
 
               <View style={styles.buttonContainer}>
                 <CustomButton
-                  href="/categorias"
+                  href="/inicio"
                   title="Comenzar"
                 />
               </View>
@@ -55,15 +55,21 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'white',
     fontWeight: 'bold',
+    fontFamily: 'TitilliumWeb-Bold',
   },
   description: {
     fontSize: 18,
     textAlign: 'center',
     marginTop: 10,
     color: 'white',
+    fontFamily: 'Hum521Rm',
   },
   buttonContainer: {
-    backgroundColor: 'transparent',
     width: '100%',
+    minHeight: 62,
+    padding: 16,
+    borderRadius: 6,
+    backgroundColor: "#003553",
+    alignItems: "center",
   },
 });

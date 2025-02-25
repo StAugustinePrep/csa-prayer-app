@@ -5,9 +5,12 @@ import "../global.css";
 
 export default function RootLayout() {
   return (
-    <Stack>
+    <Stack initialRouteName="(tabs)">
+    {/* <Stack > */}
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="index" options={{ headerShown: false }} />
+      {/* <Stack.Screen name="(tabs)/inicio" options={{ headerShown: false }} /> */}
+      {/* <Stack.Screen name="not-found" options={{ title: "Oops!" }} /> */}
     </Stack>
   );
 }

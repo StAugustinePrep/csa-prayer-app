@@ -15,11 +15,11 @@ export const ORACIONES_DATA: Oracion[] = [
         title: "Devociones",
         image: "devociones.jpg"
     },
-    {
-        id: 3,
-        title: "Letanias",
-        image: "letanias.jpg"
-    },
+    // {
+    //     id: 3,
+    //     title: "Letanias",
+    //     image: "letanias.jpg"
+    // },
     {
         id: 4,
         title: "Colección de Oraciones",

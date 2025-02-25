@@ -13,6 +13,7 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
-, "app/(tabs)/categorias/[categoriasId]/[oracionesId]"  ]
+    "nativewind-env.d.ts",
+    "app/(tabs)/categorias/[categoriasId]/[oracionesId]"  ],
+  "typeRoots": ["./node_modules/@types", "./images.d.ts"]
 }

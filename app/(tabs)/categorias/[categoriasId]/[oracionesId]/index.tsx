@@ -1,4 +1,4 @@
-import { View, Text, Pressable, ScrollView } from "react-native";
+import { View, Text, Pressable, ScrollView, StyleSheet } from "react-native";
 import React from "react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import CATEGORIAS_GALLERY from "@/constants/categorias-gallery";
@@ -19,25 +19,25 @@ const Oracion = () => {
   const sentences = oracion[0]?.text.split(".");
 
   return (
-    <View className="flex-1">
+    <View style={styles.flex1}>
       {/* <ImageBackground></ImageBackground> */}
-      <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}>
+      {/* <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}> */}
         <Pressable
           onPress={() => router.back()}
-          className="absolute top-16 left-6 z-10"
+          style={styles.pressable}
         >
           <FontAwesome5 name="arrow-left" size={24} color="white" />
         </Pressable>
         {categoriasId === "2" && oracionesId === "2" ? (
           <ViaCrucis />
         ) : (
-          <ScrollView className="mt-20" showsVerticalScrollIndicator={false}>
-            <View className="h-full justify-center">
-              <View className="h-4/5 min-h-60 justify-center">
+          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
+            <View style={styles.fullHeight}>
+              <View style={styles.innerView}>
                 {sentences.map((sentence, index) => (
                   <Text
                     key={index}
-                    className="text-white text-2xl mb-5 font-bold text"
+                    style={styles.text}
                   >
                     {sentence}.
                   </Text>
@@ -46,8 +46,40 @@ const Oracion = () => {
             </View>
           </ScrollView>
         )}
-      </AppGradient>
+      {/* </AppGradient> */}
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  flex1: {
+    flex: 1,
+    backgroundColor: '#003553'
+  },
+  pressable: {
+    position: 'absolute',
+    top: 16,
+    left: 6,
+    zIndex: 10,
+  },
+  scrollView: {
+    marginTop: 20,
+  },
+  fullHeight: {
+    height: '100%',
+    justifyContent: 'center',
+  },
+  innerView: {
+    height: '80%',
+    minHeight: 60,
+    justifyContent: 'center',
+  },
+  text: {
+    color: 'white',
+    fontSize: 24,
+    marginBottom: 5,
+    fontWeight: 'bold',
+  },
+});
+
 export default Oracion;

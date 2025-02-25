@@ -1,4 +1,4 @@
-import { View, Text, ScrollView } from "react-native";
+import { View, Text, ScrollView, StyleSheet, ImageBackground } from "react-native";
 import React from "react";
 import AppGradient from "@/components/ui/AppGradient";
 import PrayerGallery from "@/components/ui/PrayerGallery";
@@ -9,22 +9,27 @@ const Index = () => {
   const { categoriasId } = useLocalSearchParams();
   const categorySelected = CATEGORIAS_GALLERY.filter((category) => category.id === categoriasId);
   return (
-    <View className="flex-1">
-      <AppGradient
-        colors={["rgb(37, 102, 175)", "rgb(35, 76, 128)", "rgb(29, 52, 84)"]}
-      >
-        <View className="flex-1">
-          {categorySelected.map((categoria) => (
-            <PrayerGallery
-              key={categoria.title}
-              title={categoria.title}
-              previews={categoria.data}
-            ></PrayerGallery>
-          ))}
-        </View>
-      </AppGradient>
-    </View>
+    <ImageBackground
+      source={{ uri: 'https://stonkstutors.com/wp-content/uploads/2024/01/Las-oraciones-cato%CC%81licas-diarias-a-un-clic-de-distancia3-1024x614.jpg' }}
+      style={styles.flex1}
+    >
+      <View style={styles.flex1}>
+        {categorySelected.map((categoria) => (
+          <PrayerGallery
+            key={categoria.title}
+            title={categoria.title}
+            previews={categoria.data}
+          />
+        ))}
+      </View>
+    </ImageBackground>
   );
 };
+
+const styles = StyleSheet.create({
+  flex1: {
+    flex: 1,
+  },
+});
 
 export default Index;
