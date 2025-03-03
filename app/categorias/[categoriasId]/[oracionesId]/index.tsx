@@ -26,7 +26,7 @@ const Oracion = () => {
           onPress={() => router.back()}
           style={styles.pressable}
         >
-          <FontAwesome5 name="arrow-left" size={24} color="white" />
+          {/* <FontAwesome5 name="arrow-left" size={24} color="white" /> */}
         </Pressable>
         {categoriasId === "2" && oracionesId === "2" ? (
           <ViaCrucis />
@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
     top: 16,
     left: 6,
     zIndex: 10,
+    
   },
   scrollView: {
     marginTop: 10,
@@ -73,12 +74,17 @@ const styles = StyleSheet.create({
     height: '80%',
     minHeight: 60,
     justifyContent: 'center',
+    
   },
   text: {
     color: 'white',
-    fontSize: 24,
-    marginBottom: 5,
-    fontWeight: 'bold',
+    fontSize: 18,
+    top: 50,
+    marginTop: 2,
+    marginBottom: 2,
+    marginLeft: 10,
+    marginRight: 10,
+    fontFamily: "Hum521Rm", 
   },
 });
 

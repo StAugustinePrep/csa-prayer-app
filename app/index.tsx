@@ -18,23 +18,20 @@ export default function Index() {
       >
         <SafeAreaView style={styles.safeAreaView}>
 
-          <View>
+          <View backgroundColor="#rgba(0, 53, 83, 0.8)">
             <Text style={styles.title}>
-              Colegio Preparatorio San Agustín
+              Mensaje del Director
             </Text>
             <Text style={styles.description}>
-              La educación religiosa es una parte integral del plan de
-              estudios y de la vida estudiantil.
+            Con mucha alegría les doy la bienvenida a esta aplicación, elaborada en colaboración por los departamentos de tecnología, religión y música del colegio con el propósito de ayudar a todos los miembros de nuestra comunidad escolar a crecer en la vida de oración.
+            </Text>
+            <Text style={styles.description}>
+            Los invito a usar esta aplicación frecuentemente con la esperanza que las palabras de San Agustín se hagan verdad en nuestras vidas:
+            </Text>
+            <Text style={styles.description}>
+            “La búsqueda de Dios es la búsqueda de la felicidad. El encuentro con Dios es la felicidad misma” (De Mor. Eccl.Cath 11,18).
             </Text>
           </View>
-
-          <View style={styles.buttonContainer}>
-          <CustomButton
-              href="/audios"
-              title="Mensaje del Director"
-            />
-          </View>
-
 
           <StatusBar style="light" />
         </SafeAreaView>
@@ -52,7 +49,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 10,
     marginVertical: 8,
-    justifyContent: 'space-evenly',
+    justifyContent: 'flex-end',
     marginTop: 5,
     alignItems: 'center',
   },

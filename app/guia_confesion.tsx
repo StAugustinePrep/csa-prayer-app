@@ -1,8 +1,11 @@
-import { View, Text, ScrollView, StyleSheet } from "react-native";
+import { View, Text, ScrollView, StyleSheet, Image, ImageBackground } from "react-native";
 import React from "react";
 import AppGradient from "@/components/ui/AppGradient";
 import TextoExamen from "@/components/ui/TextoExamen";
 import useFonts from '@/hooks/useFonts';
+import categoriasImagenes from "@/assets/categorias-imagenes";
+
+
 
 const ExamenConciencia = () => {
   return (
@@ -87,6 +90,12 @@ const ExamenConciencia = () => {
               </View>
             {/* </View>
           </View> */}
+
+          <View >
+            
+          </View>
+        
+
         </ScrollView>
       {/* </AppGradient> */}
     </View>
@@ -103,7 +112,7 @@ const styles = StyleSheet.create({
     color: "#f8f8f8",
     fontSize: 23,
     fontWeight: "bold",
-    marginTop: 18,
+    marginTop: 60,
     fontFamily: "Titillium-Regular",
   },
   scrollView: {
@@ -130,10 +139,16 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     marginLeft: 11,
-    //fontSize: 30,
+    marginRight: 11,
+    fontFamily: "Hum521Rm",
+    //fontSize: 24,
     //fontFamily: "Hum521Rm",
     //fontWeight: "bold",
     //color: 'red',
+  },
+  imageBackground: {
+    flex: 1,
+    justifyContent: "center",
   },
 });
 

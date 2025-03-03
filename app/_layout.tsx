@@ -21,18 +21,18 @@ const TabsLayout = () => {
         options={{
           tabBarLabel: "Inicio",
           tabBarIcon: ({ color }) => (
-            <FontAwesome5 name="home" size={24} color={color} />
+            <FontAwesome5 name="home" size={26} color={color} />
           ),
         }}
       />
 
 
       <Tabs.Screen
-        name="(tabs)/categorias"
+        name="categorias"
         options={{
           tabBarLabel: "Oraciones",
           tabBarIcon: ({ color }) => (
-            <FontAwesome5 name="praying-hands" size={24} color={color} />
+            <FontAwesome5 name="praying-hands" size={26} color={color} />
           ),
         }}
       />
@@ -43,7 +43,7 @@ const TabsLayout = () => {
         options={{
           tabBarLabel: "Guia de Confesión",
           tabBarIcon: ({ color }) => (
-            <FontAwesome5 name="book-reader" size={24} color={color} />
+            <FontAwesome5 name="book-reader" size={26} color={color} />
           ),
         }}
       />
@@ -54,12 +54,12 @@ const TabsLayout = () => {
         options={{
           tabBarLabel: "Cantos Misa",
           tabBarIcon: ({ color }) => (
-            <FontAwesome5 name="music" size={24} color={color} />
+            <FontAwesome5 name="music" size={26} color={color} />
           ),
         }}
       />
 
-      
+
     </Tabs>
   );
 };

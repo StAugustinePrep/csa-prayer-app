@@ -14,7 +14,7 @@ const Index = () => {
   const router = useRouter();
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={styles.flex}>
         <View style={{ marginVertical: 24 }}>
           <Text style={styles.welcomeText}>
             Bienvenido!
@@ -67,6 +67,10 @@ const Index = () => {
 };
 
 const styles = StyleSheet.create({
+  flex: {
+    flex: 1,
+    marginVertical: 40,
+  },
   welcomeText: {
     color: "#7c7c89",
     marginBottom: 3,
@@ -88,7 +92,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   pressable: {
-    height: 100,
+    height: 110,
     marginVertical: 3,
     borderRadius: 8,
     overflow: "hidden",

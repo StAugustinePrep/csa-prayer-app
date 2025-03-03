@@ -1,13 +1,27 @@
-import diarias from "@/assets/images/categorias/oraciones-diarias.jpg";
-import devociones from "@/assets/images/categorias/devociones.jpg";
-import letanias from "@/assets/images/categorias/letanias.jpg";
-import coleccion from "@/assets/images/categorias/coleccion-oraciones.webp";
+import { ImageSourcePropType } from "react-native";
+
+import diarias from '../assets/images/categorias/oraciones-diarias.jpg';
+import devociones from '../assets/images/categorias/devociones.jpg';
+import letanias from "../assets/images/categorias/letanias.jpg";
+import coleccion from "../assets/images/categorias/coleccion-oraciones.webp";
 import salmos from "@/assets/images/categorias/salmos.jpg";
 
-export default [
+
+
+// export default [
+//     diarias,
+//     devociones,
+//     letanias,
+//     coleccion,
+//     salmos,
+// ];
+
+const categoriasImages: ImageSourcePropType[] = [
     diarias,
     devociones,
     letanias,
     coleccion,
     salmos,
 ];
+
+export default categoriasImages;

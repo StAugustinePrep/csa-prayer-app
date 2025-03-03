@@ -13,9 +13,9 @@ const Index = () => {
       source={{ uri: 'https://stonkstutors.com/wp-content/uploads/2024/01/Las-oraciones-cato%CC%81licas-diarias-a-un-clic-de-distancia3-1024x614.jpg' }}
       style={styles.flex1}
     >
-      <View style={styles.flex1}>
+      <View>
         {categorySelected.map((categoria) => (
-          <PrayerGallery
+          <PrayerGallery 
             key={categoria.title}
             title={categoria.title}
             previews={categoria.data}
@@ -29,6 +29,8 @@ const Index = () => {
 const styles = StyleSheet.create({
   flex1: {
     flex: 1,
+    color: 'red',
+
   },
 });
 

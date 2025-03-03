@@ -12,8 +12,8 @@ const CATEGORIAS_GALLERY = [
       {
         id: "1", // Ensure this is a number
         title: "Ofrecimiento del dia",
-        text: "Te doy gracias Señor por este nuevo día. \n En unión con el Santo sacrificio de la misa en todo el mundo, te ofrezco mis oraciones, mi trabajo, mis alegrías y mis sufrimientos. \n Te lo ofrezco todo por las intenciones del sagrado Corazón de tu hijo Jesús, en reparación del daño hecho por el pecado, por la conversión del mundo y por las intenciones del Santo Padre. \n Amén",
-        image: "@/assets/images/oraciones-diarias.jpg.jpg",
+        text: "Ofrecimiento del dia \n \n Te doy gracias Señor por este nuevo día. \n En unión con el Santo sacrificio de la misa en todo el mundo, te ofrezco mis oraciones, mi trabajo, mis alegrías y mis sufrimientos. \n Te lo ofrezco todo por las intenciones del sagrado Corazón de tu hijo Jesús, en reparación del daño hecho por el pecado, por la conversión del mundo y por las intenciones del Santo Padre. \n Amén",
+        //image: "@/assets/images/oraciones-diarias.jpg.jpg",
       },
       {
         id: "2",
@@ -24,7 +24,7 @@ const CATEGORIAS_GALLERY = [
       {
         id: "3",
         title: "Bendicion de la comida",
-        text: "« Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan.Te damos gracias Señor por la tierra fecunda, el rocío de la mañana y la brisa que permitió hacer crecer estos alimentos.Bendice Señor las manos de los campesinos, que trabajan a diario bajo el sol inclemente para recoger tus frutos.Por todas aquellas personas que seleccionaron, transportaron, y empacaron cada alimento.Por el sustento de este hogar, por la persona que preparó esta comida con amor y por todos nosotros que nos reunimos hoy en esta mesa, tu mesa Señor.Que nuestros cuerpos se nutren hoy de tu amor, tu misericordia y tu bondad.Amén »",
+        text: "Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan. ",
         // image: images.ofrecimiento,
       },
       {
@@ -34,6 +34,7 @@ const CATEGORIAS_GALLERY = [
       
         // image: images.ofrecimiento,
       },
+      
     ],
   },
   {
@@ -43,13 +44,20 @@ const CATEGORIAS_GALLERY = [
       {
         id: "1",
         title: "Rosario",
-        text: "Inicio.Por la señal de la Santa Cruz, de nuestros enemigos líbranos Señor Dios Nuestro; En el nombre del Padre, del Hijo y del Espíritu Santo; Amén.Acto de contrición.Señor mío Jesucristo, Dios y hombre verdadero, Creador, Padre y Redentor mío; Por ser Tú quién eres, Bondad infinita, y porque te amo sobre todas las cosas, me pesa de todo corazón haberte ofendido, también me pesa que puedes castigarme con las penas del infierno - Ayudado de tu divina gracia propongo firmemente nunca más pecar, confesarme y cumplir la penitencia que me fuere impuesta, Amén.Se reza 1 Padre Nuestro en las cuentas grandes.Se reza 10 Ave Marías en las cuentas pequeñas.Se reza un Gloria al finalizar.Al finalizar el Rosario: Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra.Dios te salve. A Ti clamamos los desterrados hijos de Eva, a Ti suspiramos, gimiendo y llorando en este valle de lágrimas. Ea, pues, Señora Abogada Nuestra, vuelve a nosotros tus ojos misericordiosos, y después de este destierro, muéstranos a Jesús,fruto bendito de tu vientre. Oh, clemente, oh piadosa, oh dulce Virgen María. Ruega por nosotros, Santa Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Amén.Misterios Gozosos (lunes y sábado). 1- La encarnación del Hijo de Dios. 2 - La visita de Nuestra Señora a Santa Isabel. 3 - El nacimiento del Hijo de Dios. 4 - La Presentación del Señor Jesús en el templo. 5 - La Pérdida del Niño Jesús y su hallazgo en el templo.Misterios Dolorosos (martes y viernes). 1 - La Oración de Nuestro Señor en el Huerto de Getsemaní. 2 - La Flagelación del Señor. 3 - La Coronación de espinas. 4 - El Camino del Monte Calvario cargando la Cruz. 5 - La Crucifixión y Muerte de Nuestro Señor.Misterios Gloriosos (miércoles y domingo). 1 - La Resurrección del Señor. 2 - La Ascensión del Señor. 3 - La Venida del Espíritu Santo. 4 - La Asunción de Nuestra Señora a los Cielos. 5 - La Coronación de la Santísima Virgen.Misterios Luminosos (jueves). 1 - El Bautismo en el Jordán. 2 - La autorrevelación en las bodas de Caná. 3 - El anuncio del Reino de Dios invitando a la conversión. 4 - La Transfiguración. 5 - La Institución de la Eucaristía, expresión sacramental del misterio pascual",
+        text: "Inicio.\nPor la señal de la Santa Cruz, de nuestros enemigos líbranos Señor Dios Nuestro; \n\nEn el nombre del Padre, del Hijo y del Espíritu Santo; \n\nAmén.\nActo de contrición.\nSeñor mío Jesucristo, Dios y hombre verdadero, Creador, Padre y Redentor mío; \n\nPor ser Tú quién eres, bondad infinita, y porque te amo sobre todas las cosas, me pesa de todo corazón haberte ofendido, también me pesa que puedes castigarme con las penas del infierno - Ayudado de tu divina gracia propongo firmemente nunca más pecar, confesarme y cumplir la penitencia que me fuere impuesta, Amén.Se reza 1 Padre Nuestro en las cuentas grandes.Se reza 10 Ave Marías en las cuentas pequeñas.Se reza un Gloria al finalizar.Al finalizar el Rosario: Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra.Dios te salve. A Ti clamamos los desterrados hijos de Eva, a Ti suspiramos, gimiendo y llorando en este valle de lágrimas. Ea, pues, Señora Abogada Nuestra, vuelve a nosotros tus ojos misericordiosos, y después de este destierro, muéstranos a Jesús,fruto bendito de tu vientre. Oh, clemente, oh piadosa, oh dulce Virgen María. Ruega por nosotros, Santa Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. Amén.Misterios Gozosos (lunes y sábado). 1- La encarnación del Hijo de Dios. 2 - La visita de Nuestra Señora a Santa Isabel. 3 - El nacimiento del Hijo de Dios. 4 - La Presentación del Señor Jesús en el templo. 5 - La Pérdida del Niño Jesús y su hallazgo en el templo.Misterios Dolorosos (martes y viernes). 1 - La Oración de Nuestro Señor en el Huerto de Getsemaní. 2 - La Flagelación del Señor. 3 - La Coronación de espinas. 4 - El Camino del Monte Calvario cargando la Cruz. 5 - La Crucifixión y Muerte de Nuestro Señor.Misterios Gloriosos (miércoles y domingo). 1 - La Resurrección del Señor. 2 - La Ascensión del Señor. 3 - La Venida del Espíritu Santo. 4 - La Asunción de Nuestra Señora a los Cielos. 5 - La Coronación de la Santísima Virgen.Misterios Luminosos (jueves). 1 - El Bautismo en el Jordán. 2 - La autorrevelación en las bodas de Caná. 3 - El anuncio del Reino de Dios invitando a la conversión. 4 - La Transfiguración. 5 - La Institución de la Eucaristía, expresión sacramental del misterio pascual",
         // image: images.ofrecimiento,
+        image: require("../assets/images/Como-rezar-rosario.jpg"),
       },
       {
         id: "2",
         title: "Via Crucis",
         text: "Via Crucis texto",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "3",
+        title: "Coronilla de la Divina Misericordia",
+        text: "Utilizando cuentas de rosario normales (o tus diez dedos), sigue esta estructura:\n\n1.Comienza con la señal de la cruz.\nEn el nombre del Padre, del Hijo y del Espíritu Santo. Amén.\n\n2.Prepara tu corazón y tu mente.\nExpiraste, Jesús, pero la fuente de la vida brotó para las almas, y el océano de la misericordia se abrió para el mundo entero. Oh Fuente de Vida, Divina Misericordia insondable, envuelve el mundo entero y vacíate sobre nosotros.\n\n3.Reza la oración de Santa Faustina.\nEn cada una de las tres cuentas pequeñas, reza:\nOh Sangre y Agua, que brotasteis del Corazón de Jesús como fuente de misericordia para nosotros, ¡en Vos confío! (x3)\n\n4.Reza un Padre Nuestro.\n\n5.Reza un Ave María.\n\n6.Reza el Credo de los Apóstoles.\n\n7.Primera decena\nEn la primera cuenta grande:\nPadre eterno, te ofrezco el Cuerpo y la Sangre, el Alma y la Divinidad de tu amadísimo Hijo, nuestro Señor Jesucristo, en expiación de nuestros pecados y los del mundo entero.\nEn las diez cuentas pequeñas:\nPor su dolorosa Pasión, ten piedad de nosotros y del mundo entero. (x10)\n\n8.Repite este patrón cuatro veces.\nPara cada decena: comienza con la oración «Padre Eterno» , y luego reza «Por el bien» diez veces.\n\n9.Después de cinco decenas, reza por misericordia.\nRepite la siguiente oración tres veces:\nSanto Dios, Santo Poderoso, Santo Inmortal, ten piedad de nosotros y del mundo entero. (x3)\n\n10.Cierra tu tiempo en oración.\nOremos: Dios eterno, en quien la misericordia no tiene fin y el tesoro de la compasión es inagotable, míranos con bondad y aumenta Tu misericordia en nosotros, para que en los momentos difíciles no desesperemos ni nos desanimemos, sino que con gran confianza nos sometamos a Tu santa voluntad, que es el Amor y la Misericordia mismos.\n\nConcluye con la señal de la cruz.\nEn el nombre del Padre, del Hijo y del Espíritu Santo,\nAmén\n\n",
         // image: images.ofrecimiento,
       },
     ],
@@ -122,6 +130,30 @@ const CATEGORIAS_GALLERY = [
         id: "8",
         title: "Sagrado Corazón de Jesús",
         text: " Señor, misericordia. Jesucristo, misericordia. Señor, misericordia. Jesucristo, óyenos. Jesucristo, escúchanos. Dios Padre celestial, Ten piedad de nosotros Dios Hijo, Redentor del mundo, Dios Espíritu Santo, Santísima Trinidad un solo Dios, Corazón de Jesús, Hijo del Eterno Padre, Corazón de Jesús, Formado por el Espíritu Santo en el Seno de María Corazón de Jesús, unido sustancialmente al Verbo, Corazón de Jesús, de Majestad infinita Corazón de Jesús, santo Templo de Dios Corazón de Jesús, Tabernáculo del Altísimo Corazón de Jesús, casa de Dios y puerta del Cielo Corazón de Jesús, horno de encendido amor Corazón de Jesús, receptáculo de la justicia y amor Corazón de Jesús, lleno de bondad y amor Corazón de Jesús, abismo de todas las virtudes Corazón de Jesús, dignísimo de toda alabanza Corazón de Jesús, Rey y centro de toda alabanza Corazón de Jesús, en quien están todos los tesoros de sabiduría y ciencia Corazón de Jesús, en quien habita la plenitud de la Divinidad Corazón de Jesús, en quien el Padre se ha complacido Corazón de Jesús, de cuya plenitud todos hemos recibido Corazón de Jesús deseo de los collados eternos Corazón de Jesús, paciente y de mucha misericordia Corazón de Jesús, rico para todos los que lo invocan Corazón de Jesús, fuente de vida y santidad Corazón de Jesús, propiciación de nuestros pecados Corazón de Jesús, saturado de oprobios Corazón de Jesús, oprimido por nuestras maldades Corazón de Jesús, hecho obediente hasta la muerte Corazón de Jesús, traspasado por la lanza Corazón de Jesús, fuente de todo consuelo, Corazón de Jesús, vida y resurrección nuestra Corazón de Jesús, paz y reconciliación nuestra Corazón de Jesús, víctima de los pecadores Corazón de Jesús, salvación de los que esperan en Ti Corazón de Jesús, esperanza de los que en Ti mueren Corazón de Jesús, delicia de todos los santos, Cordero de Dios, que quitas los pecados del mundo. Perdónanos, Señor. Cordero de Dios que quitas los pecados del mundo, Escúchanos, Señor. Cordero de Dios que quitas los pecados del mundo, Ten misericordia de nosotros.  Jesús Manso y humilde de corazón, Haz nuestro corazón semejante al tuyo Oración: Omnipotente y sempiterno Dios, mira al Corazón de tu muy amado Hijo y a las alabanzas y satisfacciones que te tributa en nombre de los pecadores; concede benigno el perdón a los que invocamos tu misericordia, en el nombre del mismo Jesucristo, tu Hijo, que contigo vive y reina en unión del Espíritu Santo Dios, por todos los siglos de los siglos. Amén",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "9",
+        title: "Oracion al angel de la guarda",
+        text: "Ángel de mi guarda, dulce compañía, no me desampares, ni de noche ni de día. \n No me dejes solo, que me perdería. \n Hasta que amanezca, en los brazos de Jesús, José y María",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "10",
+        title: "Oracion a Jesus niño",
+        text: "Jesusito de mi vida eres niño como yo, \n por eso te quiero tanto y te doy mi corazón. \n Cuatro esquinitas tiene mi cama, cuatro angelitos guardan mi alma. \n Jesús, José y María os doy mi corazón y el alma mía. \n Con Dios me acuesto, con Dios me levanto, con la Virgen Maria y el Espiritu Santo",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "11",
+        title: "Morning Prayer",
+        text: "God our Father, at the beginning of this day, we praise you and thank you for the wonders of your creation. \nWe ask you to bless us in our learning and our playing togueter. \nLet everything we do be for your greather glory and the greather good of our broders and sisters. \nTeach us today and always to love truth and to love truly. \nWe ask this in the name of Jesus, your Son and our true teacher. \nAmen \n\nSaint Sugustine, pray for us. \nSaint Monica, pray for us",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "12",
+        title: "Dismissal Prayer",
+        text: "",
         // image: images.ofrecimiento,
       },
     ],
