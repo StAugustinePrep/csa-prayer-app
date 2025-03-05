@@ -1,6 +1,5 @@
 import { View, Text, ScrollView, StyleSheet, ImageBackground } from "react-native";
 import React from "react";
-import AppGradient from "@/components/ui/AppGradient";
 import PrayerGallery from "@/components/ui/PrayerGallery";
 import CATEGORIAS_GALLERY from "@/constants/categorias-gallery";
 import { useLocalSearchParams } from "expo-router";

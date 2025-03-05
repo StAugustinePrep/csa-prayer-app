@@ -1,9 +1,8 @@
-import { View, Text, Pressable, ScrollView, StyleSheet } from "react-native";
+import { View, Text, Pressable, ScrollView, StyleSheet, ImageBackground } from "react-native";
 import React from "react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import CATEGORIAS_GALLERY from "@/constants/categorias-gallery";
 import AppGradient from "@/components/ui/AppGradient";
-import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import ViaCrucis from "@/components/ui/ViaCrucis";
 import OracionDelDia from "@/components/ui/OracionDelDia";
 
@@ -21,8 +20,8 @@ const Oracion = () => {
 
   return (
     <View style={styles.flex1}>
-      {/* <ImageBackground></ImageBackground> */}
-      {/* <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}> */}
+      {/* <ImageBackground>  </ImageBackground> */}
+      {/* <AppGradient colors={["rgba(0, 35, 53, 0.3)", "rgba(255, 255, 255, 0.9)"]}> */}
         <Pressable
           onPress={() => router.back()}
           // style={styles.pressable}
@@ -31,7 +30,7 @@ const Oracion = () => {
         </Pressable>
         {categoriasId === "2" && oracionesId === "2" ? (
           <ViaCrucis />
-        ) : categoriasId === "1" && oracionesId === "2" ? ( // Add conditional check for OracionDelDia
+        ) : categoriasId === "1" && oracionesId === "2" ? (
           <OracionDelDia />
         ) :(
           <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>

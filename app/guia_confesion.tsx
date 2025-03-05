@@ -1,9 +1,6 @@
 import { View, Text, ScrollView, StyleSheet, Image, ImageBackground } from "react-native";
 import React from "react";
-import AppGradient from "@/components/ui/AppGradient";
 import TextoExamen from "@/components/ui/TextoExamen";
-import useFonts from '@/hooks/useFonts';
-import categoriasImagenes from "@/assets/categorias-imagenes";
 
 
 
