@@ -16,13 +16,14 @@ export const ORACIONES_DATA: Oracion[] = [
         image: "devociones.jpg"
     },
     // {
-    //     id: 3,
-    //     title: "Letanias",
+    //     id: 4,
+    //     title: "Coleccion de Oraciones",
     //     image: "letanias.jpg"
     // },
     {
         id: 4,
         title: "Colección de Oraciones",
+        // image: "csaOraciones.jpg" //doesn't seem to work
         image: "coleccion-oraciones.webp"
     },
     {

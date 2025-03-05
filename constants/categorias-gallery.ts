@@ -17,18 +17,24 @@ const CATEGORIAS_GALLERY = [
       },
       {
         id: "2",
+        title: "Oracion del Dia",
+        text: "Oracion del dia Texto",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "3",
         title: "Angelus",
         text: "V. El Ángel del Señor anunció a María. R. Y ella concibió por obra del Espíritu Santo. \n Ave María. \n V. He aquí la esclava del Señor. R. Hágase en mí según tu palabra. \n Ave María. \n V. La palabra se hizo carne. R. Y acampó entre nosotros. \n Ave María. \n V. Ruega por nosotros, Santa Madre de Dios. R. Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. \n Oremos \n \n Derrama, Señor tu gracia sobre nosotros, que, por el anuncio del ángel, hemos conocido la encarnación de tu Hijo, para que lleguemos por su pasión y su cruz a la gloria de la resurrección. \n Por Cristo, nuestro Señor. \n Amén",
         // image: images.ofrecimiento,
       },
       {
-        id: "3",
+        id: "4",
         title: "Bendicion de la comida",
         text: "Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan. ",
         // image: images.ofrecimiento,
       },
       {
-        id: "4",
+        id: "5",
         title: "Examen de Conciencia",
         text: "1. Presencia: Pide a Dios su gracias y ayuda en este momento de oración. \n 2. Gratitud: Evoca los momentos que te sucedieron hoy de los cuales estoy especialmente agradecido y disfruta de ellos. Agradece a Dios por estos regalos. \n 3. Repaso del día: Revisa tu día de principio a fin identificando donde experimentaste la presencia de Dios. \n 4. Arrepentimiento: ¿Has pecado hoy o has hecho algo de lo que te arrepientes? Expresa tu pena a Dios y pídele perdón. Si el pecado es grave, ora buscando el perdón de la persona ofendida y el sacramento de la reconciliación. \n 5. Gracias: Al finalizar la oración, pídele a Dios la gracia necesaria para el siguiente día.",
       
@@ -122,7 +128,7 @@ const CATEGORIAS_GALLERY = [
       },
       {
         id: "7",
-        title: "Letanias",
+        title: "Letanias de la Virgen María",
         text: " Señor, ten piedad Cristo, ten piedad Señor, ten piedad. Cristo, óyenos. Cristo, escúchanos. Dios, Padre celestial, ten piedad de nosotros. Dios, Hijo, Redentor del mundo,  Dios, Espíritu Santo,  Santísima Trinidad, un solo Dios, Santa María,  ruega por nosotros. Santa Madre de Dios, Santa Virgen de las Vírgenes, Madre de Cristo,  Madre de la Iglesia,  Madre de la misericordia,  Madre de la divina gracia,  Madre de la esperanza,  Madre purísima, Madre castísima, Madre siempre virgen, Madre inmaculada,  Madre amable,  Madre admirable, Madre del buen consejo, Madre del Creador, Madre del Salvador, Virgen prudentísima, Virgen digna de veneración, Virgen digna de alabanza, Virgen poderosa, Virgen clemente, Virgen fiel, Espejo de justicia, Trono de la sabiduría, Causa de nuestra alegría, Vaso espiritual, Vaso digno de honor, Vaso de insigne devoción, Rosa mística, Torre de David, Torre de marfil, Casa de oro, Arca de la Alianza, Puerta del cielo, Estrella de la mañana, Salud de los enfermos, Refugio de los pecadores, Consuelo de los migrantes,Consoladora de los afligidos, Auxilio de los cristianos, Reina de los Ángeles, Reina de los Patriarcas, Reina de los Profetas, Reina de los Apóstoles, Reina de los Mártires, Reina de los Confesores, Reina de las Vírgenes, Reina de todos los Santos, Reina concebida sin pecado original, Reina asunta a los Cielos, Reina del Santísimo Rosario, Reina de la familia, Reina de la paz. Cordero de Dios, que quitas el pecado del mundo, perdónanos, Señor. Cordero de Dios, que quitas el pecado del mundo, escúchanos, Señor. Cordero de Dios, que quitas el pecado del mundo, ten misericordia de nosotros. Ruega por nosotros, Santa Madre de Dios.  Para que seamos dignos de las promesas de Cristo. ORACIÓN. Te rogamos nos concedas, Señor Dios nuestro, gozar de continua salud de alma y cuerpo, y por la gloriosa intercesión de la bienaventurada siempre Virgen María, vernos libres de las tristezas de la vida presente y disfrutar de las alegrías eternas. Por Cristo nuestro Señor. Amén",
         // image: images.ofrecimiento,
       },
@@ -153,7 +159,7 @@ const CATEGORIAS_GALLERY = [
       {
         id: "12",
         title: "Dismissal Prayer",
-        text: "",
+        text: "God, our Father, at the end of this school day, we thank you for all the blessings we have received.\nWe ask you to forgive us our failings and to grant us the grace to come back tomorrow, willing to be better disciples of your son Jesus.\nGuide and protect us during the rest of this day. \nWe ask this in the name of Jesus, your Son, and our true Teacher. \nAmen.\nSaint Augustine, pray for us.\nSaint Monica, pray for us",
         // image: images.ofrecimiento,
       },
     ],
@@ -164,20 +170,44 @@ const CATEGORIAS_GALLERY = [
     data: [
       {
         id: "1",
-        title: "23",
-        text: "El Señor es mi pastor; nada me falta.En verdes praderas me hace descansar, a las aguas tranquilas me conduce, me da nuevas fuerzas y me lleva por caminos rectos, haciendo honor a su nombre.Aunque pase por el más oscuro de los valles, no temeré peligro alguno, porque tú, Señor, estás conmigo; tu vara y tu bastón me inspiran confianza.Me has preparado un banquete ante los ojos de mis enemigos; has vertido perfume en mi cabeza, y has llenado mi copa a rebosar.Tu bondad y tu amor me acompañan a lo largo de mis días, y en tu casa, oh Señor, por siempre viviré",
+        title: "Deseo de Dios",
+        text: "- Salmo 63:\nOh Dios tu eres mi Dios, a ti te busco, mi alma tiene sed de ti.\n\n- Salmo 42:\nComo anhela la cierva corrientes de agua, así mi alma te anhela a ti, Dios mío",
         // image: images.ofrecimiento,
       },
       {
         id: "2",
-        title: "51",
-        text: "Del maestro de coro.Salmo de David, después que el profeta Natán lo reprendió por haber cometido adulterio con Betsabé.Por tu amor, oh Dios, ten compasión de mí; por tu gran ternura, borra mis culpas.¡Lávame de mi maldad! ¡Límpiame de mi pecado! Reconozco que he sido rebelde; mi pecado no se borra de mi mente.Contra ti he pecado, y sólo contra ti, haciendo lo malo, lo que tú condenas.Por eso tu sentencia es justa; irreprochable tu juicio.En verdad, soy malo desde que nací; soy pecador desde el seno de mi madre.En verdad, tú amas al corazón sincero, y en lo íntimo me has dado sabiduría.Purifícame con hisopo, y quedaré limpio; lávame, y quedaré más blanco que la nieve.Lléname de gozo y alegría; alégrame de nuevo, aunque me has quebrantado.Aleja de tu vista mis pecados y borra todas mis maldades.Oh Dios, ¡pon en mí un corazón limpio!, ¡dame un espíritu nuevo y fiel! No me apartes de tu presencia ni me quites tu santo espíritu.Hazme sentir de nuevo el gozo de tu salvación; sosténme con tu espíritu generoso, para que yo enseñe a los rebeldes tus caminos y los pecadores se vuelvan a ti.Líbrame de cometer homicidios, oh Dios, Dios de mi salvación, y anunciaré con cantos que tú eres justo.Señor, abre mis labios, y con mis labios te cantaré alabanzas.Pues tú no quieres ofrendas ni holocaustos; yo te los daría, pero no es lo que te agrada.Las ofrendas a Dios son un espíritu dolido; ¡tú no desprecias, oh Dios, un corazón hecho pedazos! Haz bien a Sión, por tu buena voluntad; vuelve a levantar los muros de Jerusalén.Entonces aceptarás los sacrificios requeridos, las ofrendas y los holocaustos; entonces se ofrecerán becerros sobre tu altar",
+        title: "Agradecimiento a Dios",
+        text: "- Salmo 139:\nMe has tejido en el vientre de mi madre; te doy gracias por tantas maravillas.\n\n- Salmo 145:\nGrande es el Señor, muy digno de alabanza, y no puede medirse su grandeza",
         // image: images.ofrecimiento,
       },
       {
         id: "3",
-        title: "138",
-        text: "Del maestro de coro.Salmo de David.Señor, tú me has examinado y me conoces; tú conoces todas mis acciones; aun de lejos te das cuenta de lo que pienso.Sabes todas mis andanzas, ¡sabes todo lo que hago! Aún no tengo la palabra en la lengua, y tú, Señor, ya la conoces.Por todos lados me has rodeado; tienes puesta tu mano sobre mí.Sabiduría tan admirable está fuera de mi alcance; ¡es tan alta que no alcanzo a comprenderla! ¿A dónde podría ir, lejos de tu espíritu? ¿A dónde huiría, lejos de tu presencia? Si yo subiera a las alturas de los cielos, allí estás tú; y si bajara a las profundidades de la tierra, también estás allí; si levantara el vuelo hacia el oriente, o habitara en los límites del mar occidental, aun allí me alcanzaría tu mano; ¡tu mano derecha no me soltaría! Si pensara esconderme en la oscuridad, o que se convirtiera en noche la luz que me rodea, la oscuridad  no me ocultaría de ti, y la noche sería tan brillante como el día. ¡La oscuridad y la luz son lo mismo para ti! Tú fuiste quien formó todo mi cuerpo; tú me formaste en el vientre de mi madre.Te alabo porque estoy maravillado, porque es maravilloso lo que has hecho.¡De ello estoy bien convencido! No te fue oculto el desarrollo de mi cuerpo mientras yo era formado en lo secreto, mientras era formado en lo más profundo de la tierra.Tus ojos vieron mi cuerpo en formación; todo eso estaba escrito en tu libro.Habías señalado los días de mi vida cuando aún no existía ninguno de ellos.Oh Dios, qué profundos me son tus pensamientos; ¡infinito es el conjunto de ellos! Si yo quisiera contarlos, serían más que la arena; y si acaso terminara, aún estaría contigo.Oh Dios, quítales la vida a los malvados y aleja de mí a los asesinos, a los que hablan mal de ti y se levantan en vano en contra tuya.Señor, ¿no odio acaso a los que te odian y desprecio a los que te desafían? ¡Los odio con toda mi alma! ¡Los considero mis enemigos! Oh Dios, examíname, reconoce mi corazón; ponme a prueba, reconoce mis pensamientos; mira si voy por el camino del mal,y guíame por el camino eterno",
+        title: "Confianza en Dios",
+        text: "- Salmo 23:\nEl Señor es mi pastor, nada me falta.\n\n- Salmo 62:\nSolo en Dios he puesto mi confianza.\n\n- Salmo 138:\nEl Señor lo hará todo por mí, Señor, tu amor perdura para siempre",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "4",
+        title: "Para pedir perdón por nuestros pecados",
+        text: "- Salmo 51:\nCrea en mí, Señor, un corazón puro.\n\n- Salmo 25:\nHaz, Señor, que conozca tus caminos, muéstrame tus senderos",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "5",
+        title: "Para momentos difíciles y de sufrimiento",
+        text: "- Salmo 130:\nGuarda mi alma en la paz, junto a ti Señor.\n\n- Salmo 55:\nEn ti descargo lo que me agobia.\n\n- Salmo 62:\nDesahoga tu corazón en su presencia.\n\n- Salmo 25:\nAcuérdate, Señor, que tu amor y tu ternura son eternos",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "6",
+        title: "Si nos encontramos en peligro",
+        text: "- Salmo 27:\nEl Señor es mi luz y mi salvación, ¿a quién temeré? El Señor es el refugio de mi vida, ¿por quién he de temblar?.\n\n- Salmo 57:\nYo clamo al Dios Altísimo, al Dios que de mí cuida",
+        // image: images.ofrecimiento,
+      },
+      {
+        id: "7",
+        title: "Para enfrentar la tristeza",
+        text: "- Salmo 119:\nSeñor que tu amor me consuele.",
         // image: images.ofrecimiento,
       },
     ],

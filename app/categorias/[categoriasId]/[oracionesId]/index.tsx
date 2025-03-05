@@ -5,6 +5,7 @@ import CATEGORIAS_GALLERY from "@/constants/categorias-gallery";
 import AppGradient from "@/components/ui/AppGradient";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import ViaCrucis from "@/components/ui/ViaCrucis";
+import OracionDelDia from "@/components/ui/OracionDelDia";
 
 const Oracion = () => {
   const router = useRouter();
@@ -24,13 +25,15 @@ const Oracion = () => {
       {/* <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}> */}
         <Pressable
           onPress={() => router.back()}
-          style={styles.pressable}
+          // style={styles.pressable}
         >
           {/* <FontAwesome5 name="arrow-left" size={24} color="white" /> */}
         </Pressable>
         {categoriasId === "2" && oracionesId === "2" ? (
           <ViaCrucis />
-        ) : (
+        ) : categoriasId === "1" && oracionesId === "2" ? ( // Add conditional check for OracionDelDia
+          <OracionDelDia />
+        ) :(
           <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
             <View style={styles.fullHeight}>
               <View style={styles.innerView}>
@@ -64,7 +67,7 @@ const styles = StyleSheet.create({
     
   },
   scrollView: {
-    marginTop: 10,
+    marginTop: 5,
   },
   fullHeight: {
     height: '100%',

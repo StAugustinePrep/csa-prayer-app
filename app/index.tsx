@@ -29,7 +29,10 @@ export default function Index() {
             Los invito a usar esta aplicación frecuentemente con la esperanza que las palabras de San Agustín se hagan verdad en nuestras vidas:
             </Text>
             <Text style={styles.description}>
-            “La búsqueda de Dios es la búsqueda de la felicidad. El encuentro con Dios es la felicidad misma” (De Mor. Eccl.Cath 11,18).
+            “La búsqueda de Dios es la búsqueda de la felicidad. El encuentro con Dios es la felicidad misma”
+            </Text>
+            <Text style={styles.description}>
+            (De Mor. Eccl.Cath 11,18).
             </Text>
           </View>
 

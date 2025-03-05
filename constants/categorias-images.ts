@@ -1,10 +1,10 @@
 import { ImageSourcePropType } from "react-native";
 
-import diarias from '../assets/images/categorias/oraciones-diarias.jpg';
-import devociones from '../assets/images/categorias/devociones.jpg';
+import diarias from '../assets/images/categorias/csaDiarias.jpg';
+import devociones from '../assets/images/categorias/csaDevociones.jpg';
 import letanias from "../assets/images/categorias/letanias.jpg";
-import coleccion from "../assets/images/categorias/coleccion-oraciones.webp";
-import salmos from "@/assets/images/categorias/salmos.jpg";
+import coleccion from "../assets/images/categorias/csaOraciones.jpg";//aqui funciona
+import salmos from "@/assets/images/categorias/csaSalmos.jpg";
 
 
 

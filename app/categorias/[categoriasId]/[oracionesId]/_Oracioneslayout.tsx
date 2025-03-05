@@ -5,10 +5,10 @@ import React from "react";
 export default function OracionesLayout() {
   return (
     <>
-      <Stack>
+      {/* <Stack>
         <Stack.Screen options={{ headerShown: false }} name="index" />
       </Stack>
-      <StatusBar style="light" />
+      <StatusBar style="light" /> */}
     </>
   );
 }
