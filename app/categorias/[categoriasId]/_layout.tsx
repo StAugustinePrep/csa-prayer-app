@@ -1,6 +1,5 @@
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
-
 import React from "react";
 
 export default function CategoriasIdLayout() {
@@ -8,7 +7,7 @@ export default function CategoriasIdLayout() {
     <>
       <Stack>
         <Stack.Screen options={{ headerShown: false }} name="index" />
-        <Stack.Screen options={{ headerShown: false }} name="[oracionesId]" />
+        <Stack.Screen options={{ headerShown: false }} name="[oracionesId]/index" />
       </Stack>
       <StatusBar style="light" />
     </>

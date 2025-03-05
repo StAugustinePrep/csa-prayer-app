@@ -12,33 +12,33 @@ const CATEGORIAS_GALLERY = [
       {
         id: "1", // Ensure this is a number
         title: "Ofrecimiento del dia",
-        text: "Ofrecimiento del dia \n \n Te doy gracias Señor por este nuevo día. \n En unión con el Santo sacrificio de la misa en todo el mundo, te ofrezco mis oraciones, mi trabajo, mis alegrías y mis sufrimientos. \n Te lo ofrezco todo por las intenciones del sagrado Corazón de tu hijo Jesús, en reparación del daño hecho por el pecado, por la conversión del mundo y por las intenciones del Santo Padre. \n Amén",
-        //image: "@/assets/images/oraciones-diarias.jpg.jpg",
+        text: "Te doy gracias Señor por este nuevo día. \nEn unión con el Santo sacrificio de la misa en todo el mundo, te ofrezco mis oraciones, mi trabajo, mis alegrías y mis sufrimientos. \nTe lo ofrezco todo por las intenciones del sagrado Corazón de tu hijo Jesús, en reparación del daño hecho por el pecado, por la conversión del mundo y por las intenciones del Santo Padre. \nAmén",
+        image: "https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjk2My1iLTA1Ny5wbmc.png",
       },
       {
         id: "2",
-        title: "Oracion del Dia",
+        title: "Oración del Dia",
         text: "Oracion del dia Texto",
-        // image: images.ofrecimiento,
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/408465946_338611048923309_1659716105039643308_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DadnQXtSvwcQ7kNvgEfoZye&_nc_oc=Adh2W2iPqR_KyM1eR7P50yezaE_JKXB8qYGJ05DLZ_lJYO_Q4eFX5F-cvgjEJl4box0&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=ApNkWX5AgyOFp-uJfeBplNE&oh=00_AYDgfIZ5EYyzGcOS4tGEPyPTbQK3RojfEV7F2UdOYIfNvw&oe=67CDF6C6",
       },
       {
         id: "3",
         title: "Angelus",
-        text: "V. El Ángel del Señor anunció a María. R. Y ella concibió por obra del Espíritu Santo. \n Ave María. \n V. He aquí la esclava del Señor. R. Hágase en mí según tu palabra. \n Ave María. \n V. La palabra se hizo carne. R. Y acampó entre nosotros. \n Ave María. \n V. Ruega por nosotros, Santa Madre de Dios. R. Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. \n Oremos \n \n Derrama, Señor tu gracia sobre nosotros, que, por el anuncio del ángel, hemos conocido la encarnación de tu Hijo, para que lleguemos por su pasión y su cruz a la gloria de la resurrección. \n Por Cristo, nuestro Señor. \n Amén",
-        // image: images.ofrecimiento,
+        text: "V.El Ángel del Señor anunció a María.R.Y ella concibió por obra del Espíritu Santo. \n Ave María. \n V. He aquí la esclava del Señor. R. Hágase en mí según tu palabra. \n Ave María. \n V. La palabra se hizo carne. R. Y acampó entre nosotros. \nAve María. \nV.Ruega por nosotros, Santa Madre de Dios.R.Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. \nOremos \n \nDerrama, Señor tu gracia sobre nosotros, que, por el anuncio del ángel, hemos conocido la encarnación de tu Hijo, para que lleguemos por su pasión y su cruz a la gloria de la resurrección. \nPor Cristo, nuestro Señor. \nAmén\n\n",
+        image: "https://theroadtorighteousness.org/wp-content/uploads/2020/10/Annunciation-Bartolome.jpg",
       },
       {
         id: "4",
         title: "Bendicion de la comida",
-        text: "Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan. ",
-        // image: images.ofrecimiento,
+        text: "Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan",
+        image: "https://scontent.fmga11-2.fna.fbcdn.net/v/t39.30808-6/461795571_524447917006287_8856767496515092464_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=DrB4vlu3H6gQ7kNvgGJUNYr&_nc_oc=AdhWk4KWKNRnsw8x1POsZjTKJwIaZ6BWTh_t-5DLey-oCqMqzCoy_EjxhaXrOho6nvc&_nc_zt=23&_nc_ht=scontent.fmga11-2.fna&_nc_gid=AFUAh5ILZYAZgGWfXlkXhco&oh=00_AYBwBZvIEx_3ivsnTOApgOiHHKT6oNrwkfbP3hpjetZNyw&oe=67CDE404",
       },
       {
         id: "5",
         title: "Examen de Conciencia",
         text: "1. Presencia: Pide a Dios su gracias y ayuda en este momento de oración. \n 2. Gratitud: Evoca los momentos que te sucedieron hoy de los cuales estoy especialmente agradecido y disfruta de ellos. Agradece a Dios por estos regalos. \n 3. Repaso del día: Revisa tu día de principio a fin identificando donde experimentaste la presencia de Dios. \n 4. Arrepentimiento: ¿Has pecado hoy o has hecho algo de lo que te arrepientes? Expresa tu pena a Dios y pídele perdón. Si el pecado es grave, ora buscando el perdón de la persona ofendida y el sacramento de la reconciliación. \n 5. Gracias: Al finalizar la oración, pídele a Dios la gracia necesaria para el siguiente día.",
       
-        // image: images.ofrecimiento,
+        image: "https://scontent.fmga11-2.fna.fbcdn.net/v/t39.30808-6/348555350_252306120887136_7409057443388102482_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=K9CIS0STsNIQ7kNvgFjcEwm&_nc_oc=AdjMcIO9w7hpKQbdbUOva8SVQsLbCSe4LjfBBV_UTfunswv3uhagplUaHCdIvGd-9DE&_nc_zt=23&_nc_ht=scontent.fmga11-2.fna&_nc_gid=ALDn7O9xQsC69ZM22E498kU&oh=00_AYCyLqflT11JRWadG86PMNCFd3KedAll4gqtGFaocdWcKA&oe=67CDEA77",
       },
       
     ],
@@ -171,8 +171,8 @@ const CATEGORIAS_GALLERY = [
       {
         id: "1",
         title: "Deseo de Dios",
-        text: "- Salmo 63:\nOh Dios tu eres mi Dios, a ti te busco, mi alma tiene sed de ti.\n\n- Salmo 42:\nComo anhela la cierva corrientes de agua, así mi alma te anhela a ti, Dios mío",
-        // image: images.ofrecimiento,
+        text: "- SALMO 63:\n\nOh Dios tu eres mi Dios, a ti te busco, mi alma tiene sed de ti.\n2.Oh Dios, tú eres mi Dios, a ti te busco, mi alma tiene sed de ti; en pos de ti mi carne languidece cual tierra seca, sedienta, sin agua.\n3.Por eso vine a verte en el santuario para admirar tu gloria y tu poder.\n4.Pues tu amor es mejor que la vida, mis labios tu gloria cantarán.\n5.Quiero bendecirte mientras viva y las manos en alto invocar tu Nombre.\n6.Mi alma está repleta, pingüe y blanda, y te alaba mi boca con labios jubilosos.\n7.Cuando estoy en mi cama pienso en ti, y durante la noche en ti medito,\n8.pues tú fuiste un refugio para mí y salto de gozo a la sombra de tus alas.\n9.Mi alma se estrecha a ti con fuerte abrazo y tu diestra me toma de la mano.\n10.Los que en vano quieren perderme irán a parar debajo de tierra.\n11.Serán muertos al filo de la espada, servirán de festín a los chacales.\n12.El rey se sentirá feliz en Dios, y cuantos juran por él se gloriarán: 'Por fin se acalló a los mentirosos'.\n\n\n- SALMO 42:\n\nComo anhela la cierva corrientes de agua, así mi alma te anhela a ti, Dios mío.\n2.Como anhela la cierva estar junto al arroyo, así mi alma desea, Señor, estar contigo.\n3.Sediento estoy de Dios, del Dios de vida; ¿cuándo iré a contemplar el rostro del Señor?\n4.Lágrimas son mi pan de noche y día, cuando oigo que me dicen sin cesar: '¿Dónde quedó su Dios?'\n5.Es un desahogo para mi alma, acordarme de aquel tiempo, en que iba con los nobles hasta la casa de Dios, entre vivas y cantos de la turba feliz.\n6.¿Qué te abate, alma mía; ¿por qué gimes en mí? Pon tu confianza en Dios que aún le cantaré a mi Dios Salvador.\n7.Mi alma está deprimida, por eso te recuerdo desde el Jordán y el Hermón a ti, humilde colina.\n8.El eco de tus cascadas resuena en los abismos, tus torrentes y tus olas han pasado sobre mí.\n9.Quiera Dios dar su gracia de día, y de noche a solas le cantaré, oraré al Dios de mi vida.\n10.A Dios, mi Roca, le hablo: ¿Por qué me has olvidado? ¿Por qué debo andar triste, bajo la opresión del enemigo?\n\n11.Mis adversarios me insultan y se me quiebran los huesos al oír que a cada rato me dicen: '¿Dónde quedó tu Dios?'\n\n12.¿Qué te abate, alma mía; por qué gimes en mí? Pon tu confianza en Dios que aún le cantaré a mi Dios salvador",
+        image: "https://www.primeros15.org/wp-content/uploads/2019/07/9.24.jpg",
       },
       {
         id: "2",

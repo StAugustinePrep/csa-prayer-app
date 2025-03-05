@@ -1,14 +1,14 @@
 import { Stack } from "expo-router";
-import { StatusBar } from "expo-status-bar";
 import React from "react";
+import { StatusBar } from "expo-status-bar";
 
 export default function OracionesLayout() {
   return (
     <>
-      {/* <Stack>
+      <Stack>
         <Stack.Screen options={{ headerShown: false }} name="index" />
       </Stack>
-      <StatusBar style="light" /> */}
+      <StatusBar style="light" />
     </>
   );
 }
