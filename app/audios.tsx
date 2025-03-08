@@ -4,6 +4,7 @@ import { Audio } from "expo-av";
 import Slider from '@react-native-community/slider';
 
 const audioFiles = [
+  { id: '0', title: 'Somos Incienso', file: require("../assets/audio/0-SomosIncienso.mp3") },
   { id: '1', title: 'Vienen con alegría', file: require("../assets/audio/1-VienenConAlegria.mp3") },
   { id: '2', title: 'Aleluya', file: require("../assets/audio/2-Aleluya.mp3") },
   { id: '3', title: 'Entre tus manos', file: require("../assets/audio/3-entreTusManos.mp3") },

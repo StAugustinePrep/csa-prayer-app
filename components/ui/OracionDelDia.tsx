@@ -24,6 +24,42 @@ export default function OracionDelDia() {
     <SafeAreaView style={styles.safeArea}> 
       <ScrollView style={styles.container} >
         {/* https://feed.evangelizo.org/v2/reader.php */}
+        
+        
+        <Text style={styles.title}>Primera lectura del día</Text>
+
+        <WebView
+          source={{
+            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading_lt&lang=SP&content=FR`,
+          }}
+          style={styles.webViewSmall}
+        />
+
+        <WebView
+          source={{
+            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading&lang=SP&content=FR`,
+          }}
+          style={styles.webView}
+        />
+        
+        
+        <Text style={styles.title}>Salmo del día</Text>
+
+        <WebView
+          source={{
+            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading_lt&lang=SP&content=PS`,
+          }}
+          style={styles.webViewSmall}
+        />
+
+        <WebView
+          source={{
+            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading&lang=SP&content=PS`,
+          }}
+          style={styles.webView}
+        />
+        
+        
         <Text style={styles.title}>Evangelio del día</Text>
 
         <WebView
@@ -43,39 +79,10 @@ export default function OracionDelDia() {
           style={styles.webView}
         />
 
-        <Text style={styles.title}>Salmo del día</Text>
 
-        <WebView
-          source={{
-            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading_lt&lang=SP&content=PS`,
-          }}
-          style={styles.webViewSmall}
-        />
 
-        <WebView
-          source={{
-            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading&lang=SP&content=PS`,
-          }}
-          style={styles.webView}
-        />
 
-        <Text style={styles.title}>Primera lectura del día</Text>
-
-        <WebView
-          source={{
-            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading_lt&lang=SP&content=FR`,
-          }}
-          style={styles.webViewSmall}
-        />
-
-        <WebView
-          source={{
-            uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=reading&lang=SP&content=FR`,
-          }}
-          style={styles.webView}
-        />
-
-        <Text style={styles.title}>Segunda lectura del día</Text>
+        {/* <Text style={styles.title}>Segunda lectura del día</Text>
 
         <WebView
           source={{
@@ -97,7 +104,7 @@ export default function OracionDelDia() {
             uri: `http://feed.evangelizo.org/v2/reader.php?date=${new Date().toISOString().slice(0, 10).replace(/-/g, '')}&type=all&lang=SP&content=SR`,
           }}
           style={styles.webView}
-        />
+        /> */}
       </ScrollView>
     </SafeAreaView>
   );
