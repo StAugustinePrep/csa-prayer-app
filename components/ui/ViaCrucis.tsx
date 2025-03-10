@@ -166,7 +166,7 @@ itemContainer: {
   marginRight: 10,
 },
 image: {
-  width: 300,
+  width: 350,
   height: 290,
   resizeMode: "cover",
   borderTopLeftRadius: 10,

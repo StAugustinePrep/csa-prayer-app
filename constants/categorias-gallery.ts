@@ -144,7 +144,7 @@ const CATEGORIAS_GALLERY = [
       {
         id: "10",
         title: "CSA Morning Prayer",
-        text: "God our Father, at the beginning of this day, we praise you and thank you for the wonders of your creation. \nWe ask you to bless us in our learning and our playing togueter. \nLet everything we do be for your greather glory and the greather good of our broders and sisters. \nTeach us today and always to love truth and to love truly. \nWe ask this in the name of Jesus, your Son and our true teacher. \nAmen \n\nSaint Sugustine, pray for us. \nSaint Monica, pray for us",
+        text: "God our Father, at the beginning of this day, we praise you and thank you for the wonders of your creation. \nWe ask you to bless us in our learning and our playing together. \nLet everything we do be for your greater glory and the greater good of our brothers and sisters. \nTeach us today and always to love truth and to love truly. \nWe ask this in the name of Jesus, your Son and our true teacher. \nAmen \n\nSaint Augustine, pray for us. \nSaint Monica, pray for us",
         image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/483890652_10161099668162546_8961504616001330880_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Rrq7YRAXMewQ7kNvgElMS1p&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=A4qf0TrVKyHGTWcfMuOuKC2&oh=00_AYF4qIYF-Y0jDCzE-gaSHDVaT-C_pdpfD8zkQjveR_dM0Q&oe=67D50454",
       },
       {
