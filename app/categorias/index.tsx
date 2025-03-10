@@ -36,7 +36,7 @@ const Index = () => {
               >
                 <ImageBackground
                   source={oracionesImages[item.id - 1]}
-                  resizeMode="cover"
+                  resizeMode="center"
                   style={styles.imageBackground}
                 >
                   <LinearGradient
@@ -54,7 +54,7 @@ const Index = () => {
 
           <ImageBackground 
               source={{ uri: 'https://static.wixstatic.com/media/bad981_9077257cae84434ca441d17730d3f51a~mv2.png/v1/fill/w_877,h_211,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20ST_%20AUGUSTINE%20Y%20NEASC.png' }}
-              resizeMode="cover"
+              resizeMode="center"
               style={styles.logoImageBackground}
           >
               <Text style={styles.textButtom}>.</Text>

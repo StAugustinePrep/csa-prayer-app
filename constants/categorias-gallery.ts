@@ -1,8 +1,3 @@
-import images from "@/constants/categorias-images";
-import { Asset } from "expo-asset";
-import { setStatusBarBackgroundColor } from "expo-status-bar";
-import { ImageBackground } from "react-native";
-
 
 
 const CATEGORIAS_GALLERY = [
@@ -14,7 +9,7 @@ const CATEGORIAS_GALLERY = [
         id: "1",
         title: "Ofrecimiento del día",
         text: "Te doy gracias Señor por este nuevo día. \nEn unión con el Santo sacrificio de la misa en todo el mundo, te ofrezco mis oraciones, mi trabajo, mis alegrías y mis sufrimientos. \nTe lo ofrezco todo por las intenciones del sagrado Corazón de tu hijo Jesús, en reparación del daño hecho por el pecado, por la conversión del mundo y por las intenciones del Santo Padre. \nAmén",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "2",
@@ -26,20 +21,20 @@ const CATEGORIAS_GALLERY = [
         id: "3",
         title: "Ángelus",
         text: "V.El Ángel del Señor anunció a María.R.Y ella concibió por obra del Espíritu Santo. \n Ave María. \n V. He aquí la esclava del Señor. R. Hágase en mí según tu palabra. \n Ave María. \n V. La palabra se hizo carne. R. Y acampó entre nosotros. \nAve María. \nV.Ruega por nosotros, Santa Madre de Dios.R.Para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. \nOremos \n \nDerrama, Señor tu gracia sobre nosotros, que, por el anuncio del ángel, hemos conocido la encarnación de tu Hijo, para que lleguemos por su pasión y su cruz a la gloria de la resurrección. \nPor Cristo, nuestro Señor. \nAmén",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482205159_10161092620347546_7403948324219753067_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kyiG7agjNoYQ7kNvgF7fHM3&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=A3oAwsWkUrdBCeG103xS02O&oh=00_AYHxUvaMhGdUg0mbcd9NPCvnCjd_b5sry5zQTVUcnjpHBw&oe=67D24E8C",
+        image: "https://scontent.fmga11-2.fna.fbcdn.net/v/t39.30808-6/483620480_10161098191767546_8224640848667205597_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=t-A42Pkx4nQQ7kNvgGfnnr6&_nc_oc=Adg0lmKLaqkPAIyhOF7uUgCbm0qH3eA3PdUoNBvSfKNiqJL5BrIBcRF4RDnqBSih7uA&_nc_zt=23&_nc_ht=scontent.fmga11-2.fna&_nc_gid=ApIBzgak5qR_AvecSu9gKbX&oh=00_AYGDqpj9BMrbeGcp-v6pFO9_DLJidD4kIeOCKMObZO-L8Q&oe=67D454E4",
       },
       {
         id: "4",
         title: "Bendición de la comida",
         text: "Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "5",
         title: "\nExamen de Conciencia Diario",
         text: "1.Presencia: Pide a Dios su gracias y ayuda en este momento de oración. \n 2.Gratitud: Evoca los momentos que te sucedieron hoy de los cuales estoy especialmente agradecido y disfruta de ellos.Agradece a Dios por estos regalos. \n 3.Repaso del día: Revisa tu día de principio a fin identificando donde experimentaste la presencia de Dios. \n 4.Arrepentimiento: ¿Has pecado hoy o has hecho algo de lo que te arrepientes? Expresa tu pena a Dios y pídele perdón.Si el pecado es grave, ora buscando el perdón de la persona ofendida y el sacramento de la reconciliación. \n 5.Gracias: Al finalizar la oración, pídele a Dios la gracia necesaria para el siguiente día",
       
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       
     ],
@@ -53,7 +48,7 @@ const CATEGORIAS_GALLERY = [
         title: "Rosario",
         text: "Inicio.\nPor la señal de la Santa Cruz, de nuestros enemigos líbranos Señor Dios Nuestro; \n\nEn el nombre del Padre, del Hijo y del Espíritu Santo; \n\nAmén.\nActo de contrición.\nSeñor mío Jesucristo, Dios y hombre verdadero, Creador, Padre y Redentor mío; \n\nPor ser Tú quién eres, bondad infinita, y porque te amo sobre todas las cosas, me pesa de todo corazón haberte ofendido, también me pesa que puedes castigarme con las penas del infierno\n\n- Ayudado de tu divina gracia propongo firmemente nunca más pecar, confesarme y cumplir la penitencia que me fuere impuesta, \n\nAmén.\n ------------------------------------- \nSe anuncia el misterio correspondiente según el día\n\nSe reza 1 Padre Nuestro en las cuentas grandes.\nSe reza 10 Ave Marías en las cuentas pequeñas.\nSe reza un Gloria al finalizar cada misterio.-------------------------------------- \n\nAl finalizar el Rosario: \n\nDios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra.\nDios te salve.\nA Ti clamamos los desterrados hijos de Eva, a Ti suspiramos, gimiendo y llorando en este valle de lágrimas. \nEa, pues, Señora Abogada Nuestra, vuelve a nosotros tus ojos misericordiosos, y después de este destierro, muéstranos a Jesús,fruto bendito de tu vientre. \nOh, clemente, oh piadosa, oh dulce Virgen María. \nRuega por nosotros, \n\nSanta Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo.\nAmén.\n\n**************************************\n**************************************\nMisterios Gozosos (lunes y sábado).\n1- La encarnación del Hijo de Dios. 2 - La visita de Nuestra Señora a Santa Isabel. 3 - El nacimiento del Hijo de Dios. 4 - La Presentación del Señor Jesús en el templo. 5 - La Pérdida del Niño Jesús y su hallazgo en el templo.\n\nMisterios Dolorosos (martes y viernes).\n1 - La Oración de Nuestro Señor en el Huerto de Getsemaní. 2 - La Flagelación del Señor. 3 - La Coronación de espinas. 4 - El Camino del Monte Calvario cargando la Cruz. 5 - La Crucifixión y Muerte de Nuestro Señor.\n\nMisterios Gloriosos (miércoles y domingo).\n1 - La Resurrección del Señor. 2 - La Ascensión del Señor. 3 - La Venida del Espíritu Santo. 4 - La Asunción de Nuestra Señora a los Cielos. 5 - La Coronación de la Santísima Virgen.\n\nMisterios Luminosos (jueves). \n1 - El Bautismo en el Jordán. 2 - La autorrevelación en las bodas de Caná. 3 - El anuncio del Reino de Dios invitando a la conversión. 4 - La Transfiguración. 5 - La Institución de la Eucaristía, expresión sacramental del misterio pascual",
         // image: images.ofrecimiento,
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482358081_10161092795597546_8597560810800364486_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RPiUpTB5tOEQ7kNvgHOxGrM&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=AIaL0qjSjAjTEie_r5aZbbW&oh=00_AYEN905rmOvnmd82oYnWPy1LTgVPuTmi_tQBJFYQkz5TBQ&oe=67D265F6",
+        image: "https://scontent.fmga11-2.fna.fbcdn.net/v/t39.30808-6/482092905_10161098202437546_7256914772023863761_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g-J1kuGDksYQ7kNvgHcJ3tP&_nc_oc=AdhDvgvwD6rb8ndswvWxc3K9Y49sbfy8JpGXwsIMefLfPgqVG2BPP_4x9eF0yPzSP5g&_nc_zt=23&_nc_ht=scontent.fmga11-2.fna&_nc_gid=AzGbq_f2oxQPtPhKFC3_XDU&oh=00_AYFOcx9Z6AV3bQnJcDUrHV-I0xKPOX8iaeRUhFk5rdCYww&oe=67D456B1",
       },
       {
         id: "2",
@@ -107,7 +102,7 @@ const CATEGORIAS_GALLERY = [
         id: "3",
         title: "Yo confieso",
         text: "Yo confieso ante Dios Todopoderoso, y ante ustedes hermanos \n\nque he pecado mucho de pensamiento, palabra, obra y omisión.\nPor mi culpa, por mi culpa, por mi gran culpa.\nPor eso ruego a Santa María siempre Virgen, a los ángeles, a los santos y a ustedes hermanos, \n\nque intercedan por mí ante Dios, Nuestro Señor.\nAmén",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       // {
       //   id: "4",
@@ -137,44 +132,39 @@ const CATEGORIAS_GALLERY = [
         id: "7",
         title: "\nSagrado Corazón de Jesús",
         text: " Señor, misericordia. Jesucristo, misericordia. Señor, misericordia. Jesucristo, óyenos. Jesucristo, escúchanos. \nDios Padre celestial, Ten piedad de nosotros \nDios Hijo, Redentor del mundo, \nDios Espíritu Santo, Santísima Trinidad un solo Dios, \nCorazón de Jesús, Hijo del Eterno Padre, \nCorazón de Jesús, Formado por el Espíritu Santo en el Seno de María \nCorazón de Jesús, unido sustancialmente al Verbo, \nCorazón de Jesús, de Majestad infinita \nCorazón de Jesús, santo Templo de Dios \nCorazón de Jesús, Tabernáculo del Altísimo \nCorazón de Jesús, casa de Dios y puerta del Cielo \nCorazón de Jesús, horno de encendido amor \nCorazón de Jesús, receptáculo de la justicia y amor \nCorazón de Jesús, lleno de bondad y amor \nCorazón de Jesús, abismo de todas las virtudes \nCorazón de Jesús, dignísimo de toda alabanza \nCorazón de Jesús, Rey y centro de toda alabanza \nCorazón de Jesús, en quien están todos los tesoros de sabiduría y ciencia \nCorazón de Jesús, en quien habita la plenitud de la Divinidad \nCorazón de Jesús, en quien el Padre se ha complacido \nCorazón de Jesús, de cuya plenitud todos hemos recibido \nCorazón de Jesús deseo de los collados eternos \nCorazón de Jesús, paciente y de mucha misericordia \nCorazón de Jesús, rico para todos los que lo invocan \nCorazón de Jesús, fuente de vida y santidad \nCorazón de Jesús, propiciación de nuestros pecados \nCorazón de Jesús, saturado de oprobios \nCorazón de Jesús, oprimido por nuestras maldades \nCorazón de Jesús, hecho obediente hasta la muerte \nCorazón de Jesús, traspasado por la lanza \nCorazón de Jesús, fuente de todo consuelo, \nCorazón de Jesús, vida y resurrección nuestra \nCorazón de Jesús, paz y reconciliación nuestra \nCorazón de Jesús, víctima de los pecadores \nCorazón de Jesús, salvación de los que esperan en Ti \nCorazón de Jesús, esperanza de los que en Ti mueren \nCorazón de Jesús, delicia de todos los santos, \nCordero de Dios, que quitas los pecados del mundo. \nPerdónanos, Señor. \nCordero de Dios que quitas los pecados del mundo, Escúchanos, Señor. \nCordero de Dios que quitas los pecados del mundo, \nTen misericordia de nosotros.  \nJesús Manso y humilde de corazón, Haz nuestro corazón semejante al tuyo \n\nOración: \nOmnipotente y sempiterno Dios, mira al Corazón de tu muy amado Hijo y a las alabanzas y satisfacciones que te tributa en nombre de los pecadores; \n\nconcede benigno el perdón a los que invocamos tu misericordia, en el nombre del mismo Jesucristo, tu Hijo, que contigo vive y reina en unión del Espíritu Santo Dios, por todos los siglos de los siglos.\nAmén",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "8",
         title: "\nOración al angel de la guarda",
         text: "Ángel de mi guarda, dulce compañía, no me desampares, ni de noche ni de día. \n No me dejes solo, que me perdería. \n Hasta que amanezca, en los brazos de Jesús, José y María",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "9",
         title: "Oración a Jesus niño",
         text: "Jesusito de mi vida eres niño como yo, \n por eso te quiero tanto y te doy mi corazón. \n Cuatro esquinitas tiene mi cama, cuatro angelitos guardan mi alma. \n Jesús, José y María os doy mi corazón y el alma mía. \n Con Dios me acuesto, con Dios me levanto, con la Virgen Maria y el Espiritu Santo",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "10",
         title: "Morning Prayer",
         text: "God our Father, at the beginning of this day, we praise you and thank you for the wonders of your creation. \nWe ask you to bless us in our learning and our playing togueter. \nLet everything we do be for your greather glory and the greather good of our broders and sisters. \nTeach us today and always to love truth and to love truly. \nWe ask this in the name of Jesus, your Son and our true teacher. \nAmen \n\nSaint Sugustine, pray for us. \nSaint Monica, pray for us",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "11",
         title: "Dismissal Prayer",
         text: "God, our Father, at the end of this school day, we thank you for all the blessings we have received.\nWe ask you to forgive us our failings and to grant us the grace to come back tomorrow, willing to be better disciples of your son Jesus.\nGuide and protect us during the rest of this day. \nWe ask this in the name of Jesus, your Son, and our true Teacher. \nAmen.\nSaint Augustine, pray for us.\nSaint Monica, pray for us",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "12",
         title: "Alma de Cristo",
         text: "Alma de Cristo, santifícame.Cuerpo de Cristo, sálvame.Sangre de Cristo, embriágame.Agua del costado de Cristo, lávame.Pasión de Cristo, confórtame.¡Oh, buen Jesús, óyeme!\nDentro de tus llagas, escóndeme.No permitas que me aparte de ti.Del enemigo maligno, defiéndeme.En la hora de mi muerte, llámame\ny mándame ir a ti,\npara que con tus santos te alabe,\npor los siglos de los siglos.Amen",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482085837_10161092620187546_6627065002003049664_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=goK68B1XQ1sQ7kNvgEJIinY&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=ALDN3gxew_dHCHlQ1gC6icI&oh=00_AYFt3tMtIIKEddKoWD132MMBKKjD2js92LvQbqagWHIVTQ&oe=67D22B25",
+        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
-      {
-        id: "13",
-        title: "",
-        text: "",
-        image: "",
-      },
+     
     ],
   },
   {

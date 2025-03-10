@@ -208,30 +208,21 @@ const styles = StyleSheet.create({
     color: "#f8f8f8",
     fontSize: 23,
     fontWeight: "bold",
-    marginTop: 60,
-    fontFamily: "Titillium-Regular",
+    marginTop: 30,
+    fontFamily: "Titillium",
   },
   scrollView: {
     marginTop: 4,
   
     
   },
-  // innerContainer: {
-  //   height: "100%",
-  //   justifyContent: "center",
-  // },
-  // section: {
-  //   height: "80%",
-  //   marginTop: 4,
-  //   justifyContent: "center",
-  // },
   subtitle: {
     color: "white",
     fontSize: 18,
     fontWeight: "bold",
     marginTop: 24,
     marginBottom: 24,
-    fontFamily: "Humanist521BoldItalicBT",
+    fontFamily: "Titillium",
   },
   youcat: {
     color: "white",
@@ -239,17 +230,14 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 24,
     marginBottom: 24,
-    fontFamily: "Humanist521BoldItalicBT",
+    fontFamily: "Titillium",
     textAlign:  "center",
   },
   textContainer: {
     marginLeft: 11,
     marginRight: 11,
-    fontFamily: "Hum521Rm",
-    //fontSize: 24,
-    //fontFamily: "Hum521Rm",
-    //fontWeight: "bold",
-    //color: 'red',
+    fontFamily: "Roboto",
+
   },
   imageBackground: {
     flex: 1,

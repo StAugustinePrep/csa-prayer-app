@@ -12,6 +12,13 @@ const TabsLayout = () => {
       screenOptions={{
         headerShown: false,
         tabBarActiveTintColor: Colors.primary,
+        tabBarLabelStyle: {
+          fontSize: 14, // Adjust the font size for the tab labels
+        },
+        tabBarStyle: {
+          height: 80, // Adjust the height of the tab bar
+          paddingBottom: 10, // Adjust the padding to center the icons and labels
+        },
       }}
     >
 
@@ -41,7 +48,7 @@ const TabsLayout = () => {
       <Tabs.Screen
         name="guia_confesion"
         options={{
-          tabBarLabel: "Guia de Confesión",
+          tabBarLabel: "Guia Confesión",
           tabBarIcon: ({ color }) => (
             <FontAwesome5 name="book-reader" size={26} color={color} />
           ),

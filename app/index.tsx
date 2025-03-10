@@ -7,7 +7,6 @@ export default function Index() {
 
   return (
     <View style={styles.flex1}>
-      {/* <AppGradient colors={["rgba(0,0,0, 0.3)", "rgba(0,0,0, 0.9)"]}> */}
       <ImageBackground
         source={require("../assets/images/csa-picture.jpg")}
         resizeMode="cover"
@@ -34,7 +33,6 @@ export default function Index() {
           <StatusBar barStyle="light-content" />
         </SafeAreaView>
       </ImageBackground>
-      {/* </AppGradient> */}
     </View>
   );
 }
@@ -45,11 +43,11 @@ const styles = StyleSheet.create({
   },
   safeAreaView: {
     flex: 1,
-    marginHorizontal: 10,
-    marginVertical: 8,
     justifyContent: 'flex-end',
-    marginTop: 5,
-    alignItems: 'center',
+    marginHorizontal: 10,
+    marginBottom: 5,
+    // alignItems: 'center',
+
   },
   overlay: {
     padding: 10,
@@ -67,6 +65,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 10,
     color: 'white',
-    fontFamily: 'Hum521Rm',
+    fontFamily: 'Roboto',
   },
 });

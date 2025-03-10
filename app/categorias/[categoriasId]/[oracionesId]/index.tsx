@@ -1,8 +1,7 @@
-import { View, Text, Pressable, ScrollView, StyleSheet, Image, SafeAreaView, ImageBackground } from "react-native";
+import { View, Text, Pressable, FlatList, StyleSheet, Image, SafeAreaView } from "react-native";
 import React from "react";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import CATEGORIAS_GALLERY from "@/constants/categorias-gallery";
-import AppGradient from "@/components/ui/AppGradient";
 import ViaCrucis from "@/components/ui/ViaCrucis";
 import OracionDelDia from "@/components/ui/OracionDelDia";
 import { FontAwesome5 } from "@expo/vector-icons";
@@ -28,7 +27,7 @@ const Oracion = () => {
         onPress={() => router.back()}
         style={styles.pressable}
       >
-        <FontAwesome5 name="arrow-left" size={24} color="white" />
+        <FontAwesome5 name="arrow-left" size={30} color="white"/>
       </Pressable>
       <Text style={styles.heading}>{title}</Text>
       {categoriasId === "2" && oracionesId === "2" ? (
@@ -37,27 +36,23 @@ const Oracion = () => {
         <OracionDelDia />
       ) : (
         <>
-          
-
-          <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-            <View style={styles.innerView}>
-              {sentences.map((sentence, index) => (
-                <Text
-                  key={index}
-                  style={styles.text}
-                >
-                  {sentence}.
-                </Text>
-              ))}
-
-              {imagePath && (
+          <FlatList
+            data={sentences}
+            keyExtractor={(item, index) => index.toString()}
+            renderItem={({ item }) => (
+              <Text style={styles.text}>{item}.</Text>
+            )}
+            ListFooterComponent={
+              imagePath ? (
                 <Image
                   source={{ uri: imagePath }}
                   style={styles.image}
                 />
-              )}
-            </View>
-          </ScrollView>
+              ) : null
+            }
+            contentContainerStyle={styles.innerView}
+            showsVerticalScrollIndicator={true}
+          />
         </>
       )}
     </SafeAreaView>
@@ -70,8 +65,8 @@ const styles = StyleSheet.create({
   },
   pressable: {
     position: 'absolute',
-    top: 70,
-    left: 6,
+    top: 30, // for back arrow position
+    left: 10,
     zIndex: 10,
   },
   scrollView: {
@@ -92,11 +87,11 @@ const styles = StyleSheet.create({
     marginBottom: 2,
     marginLeft: 10,
     marginRight: 10,
-    fontFamily: "Hum521Rm", 
+    fontFamily: "Roboto", 
   },
   image: {
     width: '100%',
-    height: 650,
+    aspectRatio: 1,
     marginTop: 40,
     alignSelf: 'center',
   },

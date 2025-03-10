@@ -83,7 +83,7 @@ const Audios = () => {
     }
   }
 
-  const renderItem = ({ item }) => {
+  const renderItem = ({ item }: { item: { id: string; title: string; file: any } }) => {
     const { duration = 0, position = 0 } = playbackStatus[item.id] || {};
     return (
       <View style={styles.audioContainer}>
