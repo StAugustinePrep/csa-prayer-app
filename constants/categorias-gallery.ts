@@ -138,8 +138,8 @@ const CATEGORIAS_GALLERY = [
       {
         id: "9",
         title: "Oración a Jesus Niño",
-        text: "Jesusito de mi vida eres niño como yo, \n por eso te quiero tanto y te doy mi corazón. \n Cuatro esquinitas tiene mi cama, cuatro angelitos guardan mi alma. \n Jesús, José y María os doy mi corazón y el alma mía. \n Con Dios me acuesto, con Dios me levanto, con la Virgen Maria y el Espiritu Santo",
-        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
+        text: "Jesusito de mi vida eres niño como yo, \n por eso te quiero tanto y te doy mi corazón. \n Cuatro esquinitas tiene mi cama, cuatro angelitos guardan mi alma. \n Jesús, José y María os doy mi corazón y el alma mía. \n Con Dios me acuesto, con Dios me levanto, con la Virgen Maria y el Espiritu Santo.\n\nImagen:The Adoration of the Magi\nJoseph van Bredael",
+        image: "https://rauantiques.com/cdn/shop/files/31-6845_1.png?v=1741269187&width=1500",
       },
       {
         id: "10",
@@ -156,7 +156,7 @@ const CATEGORIAS_GALLERY = [
       {
         id: "12",
         title: "Alma de Cristo",
-        text: "Alma de Cristo, santifícame.Cuerpo de Cristo, sálvame.Sangre de Cristo, embriágame.Agua del costado de Cristo, lávame.Pasión de Cristo, confórtame.¡Oh, buen Jesús, óyeme!\nDentro de tus llagas, escóndeme.No permitas que me aparte de ti.Del enemigo maligno, defiéndeme.En la hora de mi muerte, llámame\ny mándame ir a ti,\npara que con tus santos te alabe,\npor los siglos de los siglos.Amen.\nImagen:\nChrist Crucified\nDigo Velázquez",
+        text: "Alma de Cristo, santifícame.Cuerpo de Cristo, sálvame.Sangre de Cristo, embriágame.Agua del costado de Cristo, lávame.Pasión de Cristo, confórtame.¡Oh, buen Jesús, óyeme!\nDentro de tus llagas, escóndeme.No permitas que me aparte de ti.Del enemigo maligno, defiéndeme.En la hora de mi muerte, llámame\ny mándame ir a ti,\npara que con tus santos te alabe,\npor los siglos de los siglos.Amen.\nImagen:\nChrist Crucified\nDiego Velázquez",
         image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cristo_crucificado.jpg",
       },
       // {
