@@ -25,16 +25,16 @@ const CATEGORIAS_GALLERY = [
       },
       {
         id: "4",
-        title: "Bendición de la comida",
+        title: "Bendición de los alimentos",
         text: "Bendice Señor estos alimentos que por tu infinita misericordia tenemos hoy en esta mesa, dale Señor pan a los que no tienen y danos hambre de ti a los que tenemos pan",
         image: "https://content3.cdnprado.net/imagenes/Documentos/imgsem/ee/ee74/ee74dc9d-7c8e-45e6-8ab8-8cae8d0835a1/3a3825d7-ace0-4801-906e-2961b55317e2.jpg",
       },
       {
         id: "5",
         title: "Examen de Conciencia Diario",
-        text: "1.Presencia: Pide a Dios su gracias y ayuda en este momento de oración. \n 2.Gratitud: Evoca los momentos que te sucedieron hoy de los cuales estás especialmente agradecido y disfruta de ellos.Agradece a Dios por estos regalos. \n 3.Repaso del día: Revisa tu día de principio a fin identificando donde experimentaste la presencia de Dios. \n 4.Arrepentimiento: ¿Has pecado hoy o has hecho algo de lo que te arrepientes? Expresa tu pena a Dios y pídele perdón.Si el pecado es grave, ora buscando el perdón de la persona ofendida y el sacramento de la reconciliación. \n 5.Gracia: Al finalizar la oración, pídele a Dios la gracia necesaria para el siguiente día",
+        text: "1.Presencia: Pide a Dios su gracias y ayuda en este momento de oración. \n 2.Gratitud: Evoca los momentos que te sucedieron hoy de los cuales estás especialmente agradecido y disfruta de ellos.Agradece a Dios por estos regalos. \n 3.Repaso del día: Revisa tu día de principio a fin identificando donde experimentaste la presencia de Dios. \n 4.Arrepentimiento: ¿Has pecado hoy o has hecho algo de lo que te arrepientes? Expresa tu pena a Dios y pídele perdón.Si el pecado es grave, ora buscando el perdón de la persona ofendida y el sacramento de la reconciliación. \n 5.Gracia: Al finalizar la oración, pídele a Dios la gracia necesaria para el siguiente día.\n\n\nImagen: \nMagdalen with the smoking flame\nGeorges de La Tour",
       
-        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
+        image: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Georges_de_La_Tour_-_Magdalen_of_Night_Light_-_WGA12337.jpg",
       },
       
     ],
@@ -104,29 +104,24 @@ const CATEGORIAS_GALLERY = [
         text: "Yo confieso ante Dios Todopoderoso, y ante ustedes hermanos \n\nque he pecado mucho de pensamiento, palabra, obra y omisión.\nPor mi culpa, por mi culpa, por mi gran culpa.\nPor eso ruego a Santa María siempre Virgen, a los ángeles, a los santos y a ustedes hermanos, \n\nque intercedan por mí ante Dios, Nuestro Señor.\nAmén",
         image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
-      // {
-      //   id: "4",
-      //   title: "Oración del Jubileo 2025",
-      //   text: "Padre que estás en el cielo, la fe que nos has donado en tu Hijo Jesucristo, nuestro hermano, y la llama de caridad infundida en nuestros corazones por el Espíritu Santo, despierten en nosotros la bienaventurada esperanza en la venida de tu reino.Tu gracia nos transforme en dedicados cultivadores de las semillas del Evangelio que fermentan la humanidad y el cosmos, en espera confiada de los cielos nuevos y de la tierra nueva, cuando vencidas las fuerzas del mal, se manifestará para siempre tu gloria.La gracia del jubileo revive en nosotros, peregrinos de esperanza, el anhelo de los bienes celestiales y derrame en el mundo entero la alegría y la paz de nuestro redentor.A ti, Dios bendito eternamente, sea la alabanza y la gloria por los siglos.Amén",
-      //   // image: images.ofrecimiento,
-      // },
+
       {
         id: "4",
         title: "Memorare",
         text: "Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que alguno de cuantos han acudido a vuestra protección, implorando vuestro socorro o pidiendo vuestra intercesión, haya sido desamparado.\nAnimado por esta confianza, acudo a ti, oh Virgen de las vírgenes, Madre mía.A ti vengo, ante ti me presento, pecador y dolorido.\nOh Madre del Verbo Encarnado, no desprecies mis súplicas, antes bien, escúchame y respóndeme en tu misericordia.\nAmén",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/483620480_10161098191767546_8224640848667205597_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9QYqxmxk2ZMQ7kNvgHAYEiH&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=AUCYel12yucLpcFjJpa1RgI&oh=00_AYHfg78K_3e-h6Eki8F7HUIl4kjbzT_HiuXH2Lf8TW_H4g&oe=67D4FDA4",
+        image: "https://franciscaleighton.com/wp-content/uploads/2021/02/virgen-guadalupe-seccion-e1636225202759.jpg?w=1146",
       },
       {
         id: "5",
-        title: "Dios te salve",
+        title: "Salve",
         text: "Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra: Dios te salve. \nA ti llamamos los desterrados hijos de Eva; \n\na ti suspiramos, gimiendo y llorando en este valle de lágrimas. \nEa, pues, Señora abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos y, después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre. \n¡Oh clementísima! ¡oh piadosa! ¡oh dulce Virgen María!\n\nV: \nRuega por nosotros santa Madre de Dios.R: \nPara que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo. \nAmén",
         image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/483620480_10161098191767546_8224640848667205597_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9QYqxmxk2ZMQ7kNvgHAYEiH&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=AUCYel12yucLpcFjJpa1RgI&oh=00_AYHfg78K_3e-h6Eki8F7HUIl4kjbzT_HiuXH2Lf8TW_H4g&oe=67D4FDA4",
       },
       {
         id: "6",
         title: "Letanías de la Virgen María",
-        text: "Señor, ten piedad Cristo, ten piedad Señor, ten piedad. \nCristo, óyenos. \nCristo, escúchanos.\nDios, Padre celestial, ten piedad de nosotros.\nDios, Hijo, Redentor del mundo,  Dios, Espíritu Santo,  Santísima Trinidad, un solo Dios, Santa María,  ruega por nosotros. \nSanta Madre de Dios, \nSanta Virgen de las Vírgenes, \nMadre de Cristo,  \nMadre de la Iglesia,  \nMadre de la misericordia,  \nMadre de la divina gracia,  \nMadre de la esperanza,  \nMadre purísima, \nMadre castísima, \nMadre siempre virgen, \nMadre inmaculada,  \nMadre amable,  \nMadre admirable, \nMadre del buen consejo, \nMadre del Creador, \nMadre del Salvador, \nVirgen prudentísima, \nVirgen digna de veneración, \nVirgen digna de alabanza, \nVirgen poderosa, \nVirgen clemente, \nVirgen fiel, \nEspejo de justicia, \nTrono de la sabiduría, \nCausa de nuestra alegría, \nVaso espiritual, \nVaso digno de honor, \nVaso de insigne devoción, \nRosa mística, \nTorre de David, \nTorre de marfil, \nCasa de oro, \nArca de la Alianza, \nPuerta del cielo, \nEstrella de la mañana, \nSalud de los enfermos, \nRefugio de los pecadores, \nConsuelo de los migrantes,\nConsoladora de los afligidos, \nAuxilio de los cristianos, \nReina de los Ángeles, \nReina de los Patriarcas, \nReina de los Profetas, \nReina de los Apóstoles, \nReina de los Mártires, \nReina de los Confesores, \nReina de las Vírgenes, \nReina de todos los Santos, \nReina concebida sin pecado original, \nReina asunta a los Cielos, \nReina del Santísimo Rosario, \nReina de la familia, \nReina de la paz. \nCordero de Dios, que quitas el pecado del mundo, perdónanos, Señor. \nCordero de Dios, que quitas el pecado del mundo, escúchanos, Señor. \nCordero de Dios, que quitas el pecado del mundo, ten misericordia de nosotros. \nRuega por nosotros, Santa Madre de Dios.  \nPara que seamos dignos de las promesas de Cristo. \nORACIÓN. \nTe rogamos nos concedas, Señor Dios nuestro, gozar de continua salud de alma y cuerpo, y por la gloriosa intercesión de la bienaventurada siempre Virgen María, \n\nvernos libres de las tristezas de la vida presente y disfrutar de las alegrías eternas. \nPor Cristo nuestro Señor. \nAmén",
-        image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/483620480_10161098191767546_8224640848667205597_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9QYqxmxk2ZMQ7kNvgHAYEiH&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=AUCYel12yucLpcFjJpa1RgI&oh=00_AYHfg78K_3e-h6Eki8F7HUIl4kjbzT_HiuXH2Lf8TW_H4g&oe=67D4FDA4",
+        text: "Señor, ten piedad Cristo, ten piedad Señor, ten piedad. \nCristo, óyenos. \nCristo, escúchanos.\nDios, Padre celestial, ten piedad de nosotros.\nDios, Hijo, Redentor del mundo,  Dios, Espíritu Santo,  Santísima Trinidad, un solo Dios, Santa María,  ruega por nosotros. \nSanta Madre de Dios, \nSanta Virgen de las Vírgenes, \nMadre de Cristo,  \nMadre de la Iglesia,  \nMadre de la misericordia,  \nMadre de la divina gracia,  \nMadre de la esperanza,  \nMadre purísima, \nMadre castísima, \nMadre siempre virgen, \nMadre inmaculada,  \nMadre amable,  \nMadre admirable, \nMadre del buen consejo, \nMadre del Creador, \nMadre del Salvador, \nVirgen prudentísima, \nVirgen digna de veneración, \nVirgen digna de alabanza, \nVirgen poderosa, \nVirgen clemente, \nVirgen fiel, \nEspejo de justicia, \nTrono de la sabiduría, \nCausa de nuestra alegría, \nVaso espiritual, \nVaso digno de honor, \nVaso de insigne devoción, \nRosa mística, \nTorre de David, \nTorre de marfil, \nCasa de oro, \nArca de la Alianza, \nPuerta del cielo, \nEstrella de la mañana, \nSalud de los enfermos, \nRefugio de los pecadores, \nConsuelo de los migrantes,\nConsoladora de los afligidos, \nAuxilio de los cristianos, \nReina de los Ángeles, \nReina de los Patriarcas, \nReina de los Profetas, \nReina de los Apóstoles, \nReina de los Mártires, \nReina de los Confesores, \nReina de las Vírgenes, \nReina de todos los Santos, \nReina concebida sin pecado original, \nReina asunta a los Cielos, \nReina del Santísimo Rosario, \nReina de la familia, \nReina de la paz. \nCordero de Dios, que quitas el pecado del mundo, perdónanos, Señor. \nCordero de Dios, que quitas el pecado del mundo, escúchanos, Señor. \nCordero de Dios, que quitas el pecado del mundo, ten misericordia de nosotros. \nRuega por nosotros, Santa Madre de Dios.  \nPara que seamos dignos de las promesas de Cristo. \nORACIÓN. \nTe rogamos nos concedas, Señor Dios nuestro, gozar de continua salud de alma y cuerpo, y por la gloriosa intercesión de la bienaventurada siempre Virgen María, \n\nvernos libres de las tristezas de la vida presente y disfrutar de las alegrías eternas. \nPor Cristo nuestro Señor. \nAmén.\nImagen:\nCasa de la Virgen, Loreto",
+        image: "https://wp.es.aleteia.org/wp-content/uploads/sites/7/2021/08/web3-2-Holy-House-of-Loreto-shutterstock_1211152918.jpg",
       },
       {
         id: "7",
@@ -136,13 +131,13 @@ const CATEGORIAS_GALLERY = [
       },
       {
         id: "8",
-        title: "Oración al angel de la guarda",
+        title: "Oración al Angel de la Guarda",
         text: "Ángel de mi guarda, dulce compañía, no me desampares, ni de noche ni de día. \n No me dejes solo, que me perdería. \n Hasta que amanezca, en los brazos de Jesús, José y María",
-        image: "https://i.etsystatic.com/8193558/r/il/006d49/737481055/il_fullxfull.737481055_bz16.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Ange-au-sourire-reims.png/1200px-Ange-au-sourire-reims.png",
       },
       {
         id: "9",
-        title: "Oración a Jesus niño",
+        title: "Oración a Jesus Niño",
         text: "Jesusito de mi vida eres niño como yo, \n por eso te quiero tanto y te doy mi corazón. \n Cuatro esquinitas tiene mi cama, cuatro angelitos guardan mi alma. \n Jesús, José y María os doy mi corazón y el alma mía. \n Con Dios me acuesto, con Dios me levanto, con la Virgen Maria y el Espiritu Santo",
         image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
@@ -161,10 +156,15 @@ const CATEGORIAS_GALLERY = [
       {
         id: "12",
         title: "Alma de Cristo",
-        text: "Alma de Cristo, santifícame.Cuerpo de Cristo, sálvame.Sangre de Cristo, embriágame.Agua del costado de Cristo, lávame.Pasión de Cristo, confórtame.¡Oh, buen Jesús, óyeme!\nDentro de tus llagas, escóndeme.No permitas que me aparte de ti.Del enemigo maligno, defiéndeme.En la hora de mi muerte, llámame\ny mándame ir a ti,\npara que con tus santos te alabe,\npor los siglos de los siglos.Amen",
-        image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
+        text: "Alma de Cristo, santifícame.Cuerpo de Cristo, sálvame.Sangre de Cristo, embriágame.Agua del costado de Cristo, lávame.Pasión de Cristo, confórtame.¡Oh, buen Jesús, óyeme!\nDentro de tus llagas, escóndeme.No permitas que me aparte de ti.Del enemigo maligno, defiéndeme.En la hora de mi muerte, llámame\ny mándame ir a ti,\npara que con tus santos te alabe,\npor los siglos de los siglos.Amen.\nImagen:\nChrist Crucified\nDigo Velázquez",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cristo_crucificado.jpg",
       },
-     
+      // {
+      //   id: "13",
+      //   title: "Oración del Jubileo 2025",
+      //   text: "Padre que estás en el cielo, la fe que nos has donado en tu Hijo Jesucristo, nuestro hermano, y la llama de caridad infundida en nuestros corazones por el Espíritu Santo, despierten en nosotros la bienaventurada esperanza en la venida de tu reino.Tu gracia nos transforme en dedicados cultivadores de las semillas del Evangelio que fermentan la humanidad y el cosmos, en espera confiada de los cielos nuevos y de la tierra nueva, cuando vencidas las fuerzas del mal, se manifestará para siempre tu gloria.La gracia del jubileo revive en nosotros, peregrinos de esperanza, el anhelo de los bienes celestiales y derrame en el mundo entero la alegría y la paz de nuestro redentor.A ti, Dios bendito eternamente, sea la alabanza y la gloria por los siglos.Amén",
+      //   // image: images.ofrecimiento,
+      // },
     ],
   },
   {

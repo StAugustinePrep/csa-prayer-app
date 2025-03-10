@@ -213,8 +213,6 @@ const styles = StyleSheet.create({
   },
   scrollView: {
     marginTop: 4,
-  
-    
   },
   subtitle: {
     color: "white",
