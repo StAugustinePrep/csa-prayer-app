@@ -1,48 +1,58 @@
-import { Text, TouchableOpacity, Pressable } from "react-native";
+import { Text, TouchableOpacity, Pressable, StyleSheet } from "react-native";
 import React from "react";
 import { Link, RelativePathString } from "expo-router";
 
 interface CustomButtonProps {
   onPress?: () => void;
   title: string;
-  textStyles?: string;
-  containerStyles?: string;
+  textStyles?: object;
+  containerStyles?: object;
   href?: string;
 }
 
 export default function CustomButton({
   onPress = () => {},
   title,
-  textStyles = "",
-  containerStyles = "",
+  textStyles = {},
+  containerStyles = {},
   href = "",
 }: CustomButtonProps) {
   return href === "" ? (
     <TouchableOpacity
       activeOpacity={0.8}
       onPress={onPress}
-      className={`${containerStyles} min-h-[62px] p-4 bg-[#003553] rounded-md items-center`}
+      style={[styles.container, containerStyles]}
     >
-      <Text className={`${textStyles} font-semibold text-2xl text-white`}>
+      <Text style={[styles.text, textStyles]}>
         {title}
       </Text>
     </TouchableOpacity>
   ) : (
     <Link href={href as RelativePathString} asChild>
       <Pressable
-        style={{
-          backgroundColor: "#003553",
-          padding: 16,
-          borderRadius: 6,
-          alignItems: "center",
-          minHeight: 62,
-        }}
-        className={`${containerStyles} bg-[#003553] p-4 rounded-md min-h-[62px] items-center`}
+        style={[styles.container, containerStyles]}
       >
-        <Text className={`${textStyles} text-2xl font-semibold text-white`}>
+        <Text style={[styles.text, textStyles]}>
           {title}
         </Text>
       </Pressable>
     </Link>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    minHeight: 62,
+    padding: 16,
+    backgroundColor: "#003553",
+    borderRadius: 6,
+    alignItems: "center",
+    justifyContent: 'center',  // Centers text vertically
+  },
+  text: {
+    fontSize: 24,
+    fontWeight: "600",
+    color: "white",
+    justifyContent: 'center',  // Centers text vertically
+  },
+});

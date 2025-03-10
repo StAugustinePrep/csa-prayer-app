@@ -21,20 +21,20 @@ const PrayerGallery = ({ title, previews }: PrayerGalleryProps) => {
   const router = useRouter();
 
   return (
-    <View style={{ marginVertical: 15 }}>
+    <View style={styles.container}>
       {/* Header Row */}
       <View style={styles.headerContainer}>
         <Pressable onPress={() => router.back()}>
-          <FontAwesome5 name="arrow-left" size={24} color="white" />
+          <FontAwesome5 name="arrow-left" size={24} color="#003553" />
         </Pressable>
         <Text style={styles.headerTitle}>{title}</Text>
         <View style={{ width: 24 }} />
       </View>
 
       {/* Gallery List */}
-      <View className="space-y-2 items-center">
+      <View style={styles.galleryContainer}>
         <FlatList
-          className="mt-5 mb-10"
+          style={styles.flatList}
           data={previews}
           showsHorizontalScrollIndicator={false}
           keyExtractor={(item) => item.id.toString()}
@@ -44,18 +44,8 @@ const PrayerGallery = ({ title, previews }: PrayerGalleryProps) => {
                 router.push(`/categorias/${categoriasId}/${item.id}`)
               }
             >
-              <View
-                style={{
-                  width: 250,
-                  height: 80,
-                  backgroundColor: "white",
-                  borderRadius: 5,
-                  marginBottom: 10,
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <Text className="text-lg">{item.title}</Text>
+              <View style={styles.itemContainer}>
+                <Text style={styles.itemTitle}>{item.title}</Text>
               </View>
             </Pressable>
           )}
@@ -66,6 +56,9 @@ const PrayerGallery = ({ title, previews }: PrayerGalleryProps) => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    marginVertical: 20, // equivalent to my-5
+  },
   headerContainer: {
     flexDirection: "row",
     alignItems: "center",
@@ -79,6 +72,27 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 24,
     fontWeight: "bold",
+  },
+  galleryContainer: {
+    marginVertical: 8, // equivalent to space-y-2
+    alignItems: "center",
+  },
+  flatList: {
+    marginTop: 20, // equivalent to mt-5
+    marginBottom: 40, // equivalent to mb-10
+  },
+  itemContainer: {
+    width: 250,
+    height: 80,
+    backgroundColor: "#rgba(255, 255, 255, 0.5)",
+    borderRadius: 5,
+    marginBottom: 10,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  itemTitle: {
+    fontSize: 18, // equivalent to text-lg
+    color: "#003553",
   },
 });
 

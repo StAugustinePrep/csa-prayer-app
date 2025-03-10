@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Text, StyleSheet } from "react-native";
 import React from "react";
 
 interface TextoExamenProps {
@@ -9,10 +9,21 @@ const TextoExamen = ({
   texto = "No se ha enviado texto para este examen de conciencia",
 }: TextoExamenProps) => {
   return (
-    <Text className="text-white text-xl mb-3 font-bold text-left">
+    <Text style={styles.text}>
       {texto}
     </Text>
   );
 };
+
+const styles = StyleSheet.create({
+  text: {
+    color: 'white',
+    fontSize: 14,
+    marginBottom: 12,
+    //fontWeight: 'bold',
+    textAlign: 'left',
+    fontFamily: 'Hum521Rm', // Apply the custom font
+  },
+});
 
 export default TextoExamen;

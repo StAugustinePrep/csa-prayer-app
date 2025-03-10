@@ -8,26 +8,21 @@ export const ORACIONES_DATA: Oracion[] = [
     {
         id: 1,
         title: "Oraciones Diarias",
-        image: "oraciones-diarias.jpg"
+        image: "csaOraciones.jpeg"
     },
     {
         id: 2,
         title: "Devociones",
-        image: "devociones.jpg"
+        image: "csaDevociones.jpeg"
     },
     {
         id: 3,
-        title: "Letanias",
-        image: "letanias.jpg"
+        title: "Colección de Oraciones",
+        image: "csaOraciones.jpeg"
     },
     {
         id: 4,
-        title: "Colección de Oraciones",
-        image: "coleccion-oraciones.webp"
-    },
-    {
-        id: 5,
         title: "Salmos",
-        image: "salmos.jpg"
+        image: "csaSalmos.jpeg"
     }
 ]

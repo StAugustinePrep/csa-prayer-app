@@ -33,10 +33,15 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      ["expo-asset",
-    {
-      "assets": ["./assets/images/csa-logo.png"]
-    }]
+      [
+        "expo-asset",
+        {
+          "assets": [
+            "./assets/images/csa-logo.png"
+          ]
+        }
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true

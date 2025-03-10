@@ -1,24 +1,37 @@
-import { View, Text } from "react-native";
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView, StyleSheet } from "react-native";
 
-const Content = ({ children }: { children: any }) => {
-  return <SafeAreaView className="flex-1 mx-5 px-5">{children}</SafeAreaView>;
+interface ContentProps {
+  children: React.ReactNode;
+}
+
+const Content = ({ children }: ContentProps) => {
+  return <SafeAreaView style={styles.safeAreaView}>{children}</SafeAreaView>;
 };
 
-const AppGradient = ({
-  children,
-  colors,
-}: {
-  children: any;
+interface AppGradientProps {
+  children: React.ReactNode;
   colors: [string, string, ...string[]];
-}) => {
+}
+
+const AppGradient = ({ children, colors }: AppGradientProps) => {
   return (
-    <LinearGradient colors={colors} className="flex-1">
+    <LinearGradient colors={colors} style={styles.linearGradient}>
       <Content>{children}</Content>
     </LinearGradient>
   );
 };
+
+const styles = StyleSheet.create({
+  safeAreaView: {
+    flex: 1,
+    marginHorizontal: 5,
+    paddingHorizontal: 5,
+  },
+  linearGradient: {
+    flex: 1,
+  },
+});
 
 export default AppGradient;

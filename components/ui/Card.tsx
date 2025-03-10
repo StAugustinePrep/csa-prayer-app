@@ -5,6 +5,7 @@ import {
   Pressable,
   Image,
   ImageSourcePropType,
+  StyleSheet,
 } from "react-native";
 
 type CardProps = {
@@ -18,22 +19,64 @@ type CardProps = {
 
 export default function Card({ title, description, image, link }: CardProps) {
   return (
-    <View className="w-full h-96 max-h-[400px] md:max-h-[] max-w-[350px]">
+    <View style={styles.cardContainer}>
       <Image
-        className="w-full h-[55%] rounded-t-lg max-h-full max-w-full"
+        style={styles.image}
         source={image}
       />
-      <View className="h-auto bg-[#395E80] p-4 rounded-b-lg gap-3">
-        <Text className="text-white text-lg">{title}</Text>
-        <Text className="text-white">
+      <View style={styles.cardContent}>
+        <Text style={styles.title}>{title}</Text>
+        <Text style={styles.description}>
           {description || "Descripción de la oración"}
         </Text>
-        <Link className="w-16" href={link.href} asChild>
-          <Pressable className="p-2 bg-[#003553] rounded-md">
-            <Text className="texl-xl text-white">ORAR</Text>
+        <Link href={link.href} asChild>
+          <Pressable style={styles.button}>
+            <Text style={styles.buttonText}>ORAR</Text>
           </Pressable>
         </Link>
       </View>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  cardContainer: {
+    width: '100%',
+    height: 96,
+    maxHeight: 500,
+    maxWidth: 350,
+  },
+  image: {
+    width: '100%',
+    height: '100%',
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    maxHeight: '100%',
+    maxWidth: '100%',
+  },
+  cardContent: {
+    height: '100%',
+    backgroundColor: '#395E80',
+    padding: 16,
+    borderBottomLeftRadius: 8,
+    borderBottomRightRadius: 8,
+    gap: 12,
+  },
+  title: {
+    color: 'white',
+    fontSize: 18,
+  },
+  description: {
+    color: 'white',
+  },
+  button: {
+    width: 64,
+    padding: 8,
+    backgroundColor: '#003553',
+    borderRadius: 8,
+  },
+  buttonText: {
+    fontSize: 18,
+    color: 'white',
+  },
+});
