@@ -1,14 +1,16 @@
-import { View, Text, SafeAreaView, StyleSheet, ImageBackground, StatusBar } from "react-native";
+import { View, Text, SafeAreaView, StyleSheet, ImageBackground, StatusBar, useWindowDimensions } from "react-native";
 import React from "react";
 import { useRouter } from "expo-router";
 
 export default function Index() {
   const router = useRouter();
+  const { width, height } = useWindowDimensions();
+  const isPortrait = height > width;
 
   return (
     <View style={styles.flex1}>
       <ImageBackground
-        source={require("../assets/images/csa-picture.jpg")}
+        source={isPortrait ? require("../assets/images/csa-picture-vertical.jpg") : require("../assets/images/csa-picture-horizontal.jpg")}
         resizeMode="cover"
         style={styles.flex1}
       >
@@ -46,8 +48,6 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     marginHorizontal: 10,
     marginBottom: 5,
-    // alignItems: 'center',
-
   },
   overlay: {
     padding: 10,
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     fontFamily: 'TitilliumWeb-Bold',
   },
   description: {
-    fontSize: 18,
+    fontSize: 14,
     textAlign: 'center',
     marginTop: 10,
     color: 'white',

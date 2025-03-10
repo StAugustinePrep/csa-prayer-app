@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     fontSize: 23,
     fontWeight: "bold",
     marginTop: 30,
-    fontFamily: "Titillium",
+    fontFamily: "Titillium-Bold",
   },
   scrollView: {
     marginTop: 4,
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 24,
     marginBottom: 24,
-    fontFamily: "Titillium",
+    fontFamily: "Titillium-Semibold",
   },
   youcat: {
     color: "white",
@@ -230,13 +230,14 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 24,
     marginBottom: 24,
-    fontFamily: "Titillium",
+    fontFamily: "Titillium-Semibold",
     textAlign:  "center",
   },
   textContainer: {
     marginLeft: 11,
     marginRight: 11,
-    fontFamily: "Roboto",
+    fontSize: 14,
+    fontFamily: "Humans-Roman",
 
   },
   imageBackground: {

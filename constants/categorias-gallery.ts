@@ -11,12 +11,12 @@ const CATEGORIAS_GALLERY = [
         text: "Te doy gracias Señor por este nuevo día. \nEn unión con el Santo sacrificio de la misa en todo el mundo, te ofrezco mis oraciones, mi trabajo, mis alegrías y mis sufrimientos. \nTe lo ofrezco todo por las intenciones del sagrado Corazón de tu hijo Jesús, en reparación del daño hecho por el pecado, por la conversión del mundo y por las intenciones del Santo Padre. \nAmén",
         image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
-      {
-        id: "2",
-        title: "Lecturas de misa del día",
-        text: "Oracion del dia Texto",
-        image: "",
-      },
+      // {
+      //   id: "2",
+      //   title: "Lecturas de misa del día",
+      //   text: "Oracion del dia Texto",
+      //   image: "",
+      // },
       {
         id: "3",
         title: "Ángelus",
@@ -31,7 +31,7 @@ const CATEGORIAS_GALLERY = [
       },
       {
         id: "5",
-        title: "\nExamen de Conciencia Diario",
+        title: "Examen de Conciencia Diario",
         text: "1.Presencia: Pide a Dios su gracias y ayuda en este momento de oración. \n 2.Gratitud: Evoca los momentos que te sucedieron hoy de los cuales estoy especialmente agradecido y disfruta de ellos.Agradece a Dios por estos regalos. \n 3.Repaso del día: Revisa tu día de principio a fin identificando donde experimentaste la presencia de Dios. \n 4.Arrepentimiento: ¿Has pecado hoy o has hecho algo de lo que te arrepientes? Expresa tu pena a Dios y pídele perdón.Si el pecado es grave, ora buscando el perdón de la persona ofendida y el sacramento de la reconciliación. \n 5.Gracias: Al finalizar la oración, pídele a Dios la gracia necesaria para el siguiente día",
       
         image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
@@ -124,19 +124,19 @@ const CATEGORIAS_GALLERY = [
       },
       {
         id: "6",
-        title: "\nLetanías de la Virgen María",
+        title: "Letanías de la Virgen María",
         text: "Señor, ten piedad Cristo, ten piedad Señor, ten piedad. \nCristo, óyenos. \nCristo, escúchanos.\nDios, Padre celestial, ten piedad de nosotros.\nDios, Hijo, Redentor del mundo,  Dios, Espíritu Santo,  Santísima Trinidad, un solo Dios, Santa María,  ruega por nosotros. \nSanta Madre de Dios, \nSanta Virgen de las Vírgenes, \nMadre de Cristo,  \nMadre de la Iglesia,  \nMadre de la misericordia,  \nMadre de la divina gracia,  \nMadre de la esperanza,  \nMadre purísima, \nMadre castísima, \nMadre siempre virgen, \nMadre inmaculada,  \nMadre amable,  \nMadre admirable, \nMadre del buen consejo, \nMadre del Creador, \nMadre del Salvador, \nVirgen prudentísima, \nVirgen digna de veneración, \nVirgen digna de alabanza, \nVirgen poderosa, \nVirgen clemente, \nVirgen fiel, \nEspejo de justicia, \nTrono de la sabiduría, \nCausa de nuestra alegría, \nVaso espiritual, \nVaso digno de honor, \nVaso de insigne devoción, \nRosa mística, \nTorre de David, \nTorre de marfil, \nCasa de oro, \nArca de la Alianza, \nPuerta del cielo, \nEstrella de la mañana, \nSalud de los enfermos, \nRefugio de los pecadores, \nConsuelo de los migrantes,\nConsoladora de los afligidos, \nAuxilio de los cristianos, \nReina de los Ángeles, \nReina de los Patriarcas, \nReina de los Profetas, \nReina de los Apóstoles, \nReina de los Mártires, \nReina de los Confesores, \nReina de las Vírgenes, \nReina de todos los Santos, \nReina concebida sin pecado original, \nReina asunta a los Cielos, \nReina del Santísimo Rosario, \nReina de la familia, \nReina de la paz. \nCordero de Dios, que quitas el pecado del mundo, perdónanos, Señor. \nCordero de Dios, que quitas el pecado del mundo, escúchanos, Señor. \nCordero de Dios, que quitas el pecado del mundo, ten misericordia de nosotros. \nRuega por nosotros, Santa Madre de Dios.  \nPara que seamos dignos de las promesas de Cristo. \nORACIÓN. \nTe rogamos nos concedas, Señor Dios nuestro, gozar de continua salud de alma y cuerpo, y por la gloriosa intercesión de la bienaventurada siempre Virgen María, \n\nvernos libres de las tristezas de la vida presente y disfrutar de las alegrías eternas. \nPor Cristo nuestro Señor. \nAmén",
         image: "https://scontent.fmga8-1.fna.fbcdn.net/v/t39.30808-6/482205159_10161092620347546_7403948324219753067_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kyiG7agjNoYQ7kNvgF7fHM3&_nc_zt=23&_nc_ht=scontent.fmga8-1.fna&_nc_gid=A3oAwsWkUrdBCeG103xS02O&oh=00_AYHxUvaMhGdUg0mbcd9NPCvnCjd_b5sry5zQTVUcnjpHBw&oe=67D24E8C",
       },
       {
         id: "7",
-        title: "\nSagrado Corazón de Jesús",
+        title: "Sagrado Corazón de Jesús",
         text: " Señor, misericordia. Jesucristo, misericordia. Señor, misericordia. Jesucristo, óyenos. Jesucristo, escúchanos. \nDios Padre celestial, Ten piedad de nosotros \nDios Hijo, Redentor del mundo, \nDios Espíritu Santo, Santísima Trinidad un solo Dios, \nCorazón de Jesús, Hijo del Eterno Padre, \nCorazón de Jesús, Formado por el Espíritu Santo en el Seno de María \nCorazón de Jesús, unido sustancialmente al Verbo, \nCorazón de Jesús, de Majestad infinita \nCorazón de Jesús, santo Templo de Dios \nCorazón de Jesús, Tabernáculo del Altísimo \nCorazón de Jesús, casa de Dios y puerta del Cielo \nCorazón de Jesús, horno de encendido amor \nCorazón de Jesús, receptáculo de la justicia y amor \nCorazón de Jesús, lleno de bondad y amor \nCorazón de Jesús, abismo de todas las virtudes \nCorazón de Jesús, dignísimo de toda alabanza \nCorazón de Jesús, Rey y centro de toda alabanza \nCorazón de Jesús, en quien están todos los tesoros de sabiduría y ciencia \nCorazón de Jesús, en quien habita la plenitud de la Divinidad \nCorazón de Jesús, en quien el Padre se ha complacido \nCorazón de Jesús, de cuya plenitud todos hemos recibido \nCorazón de Jesús deseo de los collados eternos \nCorazón de Jesús, paciente y de mucha misericordia \nCorazón de Jesús, rico para todos los que lo invocan \nCorazón de Jesús, fuente de vida y santidad \nCorazón de Jesús, propiciación de nuestros pecados \nCorazón de Jesús, saturado de oprobios \nCorazón de Jesús, oprimido por nuestras maldades \nCorazón de Jesús, hecho obediente hasta la muerte \nCorazón de Jesús, traspasado por la lanza \nCorazón de Jesús, fuente de todo consuelo, \nCorazón de Jesús, vida y resurrección nuestra \nCorazón de Jesús, paz y reconciliación nuestra \nCorazón de Jesús, víctima de los pecadores \nCorazón de Jesús, salvación de los que esperan en Ti \nCorazón de Jesús, esperanza de los que en Ti mueren \nCorazón de Jesús, delicia de todos los santos, \nCordero de Dios, que quitas los pecados del mundo. \nPerdónanos, Señor. \nCordero de Dios que quitas los pecados del mundo, Escúchanos, Señor. \nCordero de Dios que quitas los pecados del mundo, \nTen misericordia de nosotros.  \nJesús Manso y humilde de corazón, Haz nuestro corazón semejante al tuyo \n\nOración: \nOmnipotente y sempiterno Dios, mira al Corazón de tu muy amado Hijo y a las alabanzas y satisfacciones que te tributa en nombre de los pecadores; \n\nconcede benigno el perdón a los que invocamos tu misericordia, en el nombre del mismo Jesucristo, tu Hijo, que contigo vive y reina en unión del Espíritu Santo Dios, por todos los siglos de los siglos.\nAmén",
         image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },
       {
         id: "8",
-        title: "\nOración al angel de la guarda",
+        title: "Oración al angel de la guarda",
         text: "Ángel de mi guarda, dulce compañía, no me desampares, ni de noche ni de día. \n No me dejes solo, que me perdería. \n Hasta que amanezca, en los brazos de Jesús, José y María",
         image: "https://scontent.fmga11-1.fna.fbcdn.net/v/t39.30808-6/482084789_10161098191662546_7993809175620189737_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7EAup9LCaOQQ7kNvgFbgMts&_nc_oc=AdiI9a2RzgP95rcbJOH53uMw-88RNX4wfz2L8Behs0aF5lZYXITwa4p5uv_Y_mkq64c&_nc_zt=23&_nc_ht=scontent.fmga11-1.fna&_nc_gid=AOKDKWwIa5xevA0poM-ehjh&oh=00_AYEsypu_mRzp1CAiRXWZzQQQrseJNdsgVQ7_puMFtM2kNQ&oe=67D45E7C",
       },

@@ -83,11 +83,11 @@ const styles = StyleSheet.create({
   },
   text: {
     color: 'white',
-    fontSize: 18,
+    fontSize: 24,
     marginBottom: 2,
     marginLeft: 10,
     marginRight: 10,
-    fontFamily: "Roboto", 
+    fontFamily: "sans-serif", 
   },
   image: {
     width: '100%',
@@ -97,11 +97,12 @@ const styles = StyleSheet.create({
   },
   heading: {
     color: 'white',
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 10,
     top: 15,
+    fontFamily: "Titillium-Bold", 
   },
   safeAreaView: {
     flex: 1,

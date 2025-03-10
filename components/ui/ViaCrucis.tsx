@@ -160,7 +160,7 @@ container: {
   flex: 1,
 },
 itemContainer: {
-  width: 300,
+  width: 350,
   height: 580,
   marginTop: 60,
   marginRight: 10,

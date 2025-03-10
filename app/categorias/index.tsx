@@ -36,11 +36,11 @@ const Index = () => {
               >
                 <ImageBackground
                   source={oracionesImages[item.id - 1]}
-                  resizeMode="center"
+                  resizeMode="cover"
                   style={styles.imageBackground}
                 >
                   <LinearGradient
-                    colors={["transparent", "rgba(0,0,0,0.8)"]}
+                    colors={["transparent", "rgba(0,0,0,0.5)"]}
                     style={styles.linearGradient}
                   >
                     <Text style={styles.itemTitle}>
