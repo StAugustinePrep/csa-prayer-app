@@ -98,11 +98,11 @@ const styles = StyleSheet.create({
   heading: {
     color: 'white',
     fontSize: 28,
+    fontFamily: "sans-serif", 
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 10,
     top: 15,
-    fontFamily: "Titillium-Bold", 
   },
   safeAreaView: {
     flex: 1,

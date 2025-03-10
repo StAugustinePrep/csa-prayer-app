@@ -153,7 +153,7 @@ const styles = StyleSheet.create({
     color: "#f8f8f8",
     fontSize: 18,
     marginBottom: 10,
-    fontFamily: "Humanist521BT-Bold",
+    fontFamily: "sans-serif",
   },
   slider: {
     width: "100%",

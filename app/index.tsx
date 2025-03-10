@@ -10,7 +10,7 @@ export default function Index() {
   return (
     <View style={styles.flex1}>
       <ImageBackground
-        source={isPortrait ? require("../assets/images/csa-picture-vertical.jpg") : require("../assets/images/csa-picture-horizontal.jpg")}
+        source={isPortrait ? require("../assets/images/csa-picture-vertical.jpeg") : require("../assets/images/csa-picture-horizontal.jpeg")}
         resizeMode="cover"
         style={styles.flex1}
       >
@@ -20,7 +20,7 @@ export default function Index() {
               Mensaje del Director
             </Text>
             <Text style={styles.description}>
-              Con mucha alegría les doy la bienvenida a esta aplicación, elaborada en colaboración por los departamentos de tecnología, religión y música del colegio con el propósito de ayudar a todos los miembros de nuestra comunidad escolar a crecer en la vida de oración.
+              Con mucha alegría les doy la bienvenida a esta aplicación, elaborada por los departamentos de tecnología, religión y música del colegio con el propósito de ayudar a todos los miembros de nuestra comunidad escolar a crecer en la vida de oración.
             </Text>
             <Text style={styles.description}>
               Los invito a usar esta aplicación frecuentemente con la esperanza que las palabras de San Agustín se hagan verdad en nuestras vidas:
@@ -58,13 +58,13 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'white',
     fontWeight: 'bold',
-    fontFamily: 'TitilliumWeb-Bold',
+    fontFamily: 'sans-serif',
   },
   description: {
     fontSize: 14,
     textAlign: 'center',
     marginTop: 10,
     color: 'white',
-    fontFamily: 'Roboto',
+    fontFamily: 'sans-serif',
   },
 });

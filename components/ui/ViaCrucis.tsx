@@ -183,9 +183,11 @@ title: {
   fontWeight: "bold",
   fontSize: 18,
   color: "black",
+  fontFamily: 'sans-serif',
 },
 prayer: {
   fontSize: 16,
   color: "black",
+  fontFamily: 'sans-serif',
 },
 });

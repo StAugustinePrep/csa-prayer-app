@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     fontSize: 23,
     fontWeight: "bold",
     marginTop: 30,
-    fontFamily: "Titillium-Bold",
+    fontFamily: "sans-serif",
   },
   scrollView: {
     marginTop: 4,
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginTop: 24,
     marginBottom: 24,
-    fontFamily: "Titillium-Semibold",
+    fontFamily: "sans-serif",
   },
   youcat: {
     color: "white",
@@ -237,7 +237,7 @@ const styles = StyleSheet.create({
     marginLeft: 11,
     marginRight: 11,
     fontSize: 14,
-    fontFamily: "Humans-Roman",
+    fontFamily: "sans-serif",
 
   },
   imageBackground: {
