@@ -6,6 +6,10 @@ import Slider from '@react-native-community/slider';
 const audioFiles = [
   { id: '1', title: 'San Agustín', file: require("../assets/audio/1-csaSanAgustin.mp3") },
   { id: '2', title: 'Alma Misionera', file: require("../assets/audio/2-csaAlmaMisionera.mp3") },
+  { id: '3', title: 'Siervo por Amor', file: require("../assets/audio/csaSiervoPorAmor.mp3") },
+  { id: '4', title: 'Un Niño se te Acercó', file: require("../assets/audio/csaUnNinoSeTeAcerco.mp3") },
+  { id: '5', title: 'Junto a Ti María', file: require("../assets/audio/csaJuntoATiMaria.mp3") },
+  { id: '6', title: 'Santa María del Camino', file: require("../assets/audio/csaSantaMariaDelCamino.mp3") },
 
 ];
 
