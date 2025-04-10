@@ -6,11 +6,15 @@ import Slider from '@react-native-community/slider';
 const audioFiles = [
   { id: '1', title: 'San Agustín', file: require("../assets/audio/1-csaSanAgustin.mp3") },
   { id: '2', title: 'Alma Misionera', file: require("../assets/audio/2-csaAlmaMisionera.mp3") },
-  { id: '3', title: 'Siervo por Amor', file: require("../assets/audio/csaSiervoPorAmor.mp3") },
-  { id: '4', title: 'Un Niño se te Acercó', file: require("../assets/audio/csaUnNinoSeTeAcerco.mp3") },
-  { id: '5', title: 'Junto a Ti María', file: require("../assets/audio/csaJuntoATiMaria.mp3") },
-  { id: '6', title: 'Santa María del Camino', file: require("../assets/audio/csaSantaMariaDelCamino.mp3") },
-
+  { id: '3', title: 'Siervo por Amor', file: require("../assets/audio/3-csaSiervoPorAmor.mp3") },
+  { id: '4', title: 'Un Niño se te Acercó', file: require("../assets/audio/4-csaUnNinoSeTeAcerco.mp3") },
+  { id: '5', title: 'Junto a Ti María', file: require("../assets/audio/5-csaJuntoATiMaria.mp3") },
+  { id: '6', title: 'Santa María del Camino', file: require("../assets/audio/6-csaSantaMariaDelCamino.mp3") },
+  { id: '7', title: 'La Canción de los Ángeles', file: require("../assets/audio/7-csaLaCancionDeLosAngeles.mp3") },
+  { id: '8', title: 'Hacia la Casa de Dios', file: require("../assets/audio/8-csaHaciaLaCasaDeDiosSalmo121.mp3") },
+  { id: '9', title: 'Hoy el Señor Resucitó', file: require("../assets/audio/9-csaHoyElSenorResucito.mp3") },
+  // { id: '10', title: 'Que Alegría Cuando Me Dijeron', file: require("../assets/audio/10-csaQueAlegriaCuandoMeDijeronSalmo121.mp3") },
+  // { id: '11', title: 'Regina Coeli', file: require("../assets/audio/11-csaReginaCoelli.mp3") },
 ];
 
 const Audios = () => {
